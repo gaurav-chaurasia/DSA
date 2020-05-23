@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "ostream": "cpp",
+        "deque": "cpp",
+        "bitset": "cpp",
+        "iostream": "cpp",
+        "random": "cpp"
+    }
+}

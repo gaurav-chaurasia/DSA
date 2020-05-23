@@ -26,6 +26,7 @@ using namespace std;
 typedef pair<int, int>         pi;
 typedef pair< int, pi>         ppi;
 typedef vector<int>            vi;
+typedef vector<char>           vc;
 typedef vector<string>         vs;
 typedef vector<vi>             vvi;
 typedef map<int, int>          mapi;
@@ -36,16 +37,25 @@ typedef long int               int32;
 typedef unsigned long int      uint32;
 typedef long long int          int64;
 typedef unsigned long long int uint64;
- 
-template <typename T>
-void display(const vector<T> &l) {
-    cout << "\n" << "[ ";
-    for (const auto &element: l) { cout << element << " "; }
-    cout << "]";
-}
- 
-void solve() {
 
+
+void solve() {
+    string str;
+    cin >> str;
+    uint64 sum = str.size();
+    for (int i = 0; i < str.size()-1; i++) {
+        string temp; 
+        for (int j = i+1, k = 0; j < str.size(); j++, k++) {
+            temp.pb(str.at(j));
+        }
+        for (int l = 0; l < min(temp.size(), str.size()); l++) {
+            if (temp.at(l) == str.at(l))
+                sum++;
+            else 
+                break;
+        }
+    }
+    cout << sum << endl;
 }
  
 int main() {

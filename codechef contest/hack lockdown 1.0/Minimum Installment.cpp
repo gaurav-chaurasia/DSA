@@ -5,8 +5,8 @@ using namespace std;
 #define MEM(a, b)          memset(a, (b), sizeof(a))
 #define _for(i, j, k, in)  for (int i = j; i < k; i += in)
 #define _rfor(i, j, k, in) for (int i = j; i >= k; i -= in)
-#define rep(i, j)          FOR(i, 0, j, 1)
-#define rrep(i, j)         RFOR(i, j, 0, 1)
+#define rep(i, j)          _for(i, 0, j, 1)
+#define rrep(i, j)         _rfor(i, j, 0, 1)
 #define all(cont)          cont.begin(), cont.end()
 #define rall(cont)         cont.end(), cont.begin()
 #define foreach(it, l)     for (auto it = l.begin(); it != l.end(); it++)
@@ -37,22 +37,30 @@ typedef unsigned long int      uint32;
 typedef long long int          int64;
 typedef unsigned long long int uint64;
  
-template <typename T>
-void display(const vector<T> &l) {
-    cout << "\n" << "[ ";
-    for (const auto &element: l) { cout << element << " "; }
-    cout << "]";
-}
- 
 void solve() {
-
+    int32 n, m;
+    cin >> n >> m;
+    int32 a[n][3];
+    rep(i,n) {
+        a[i][0] = 0;
+        a[i][1] = 0;
+        a[i][2] = 0;
+    }
+    rep(i, m) {
+        int32 a1, a2, a3;
+        cin >> a1 >> a2 >> a3;
+        a[a1-1][0] += a3;
+        a[a2-1][1] += a3;
+    }
+    int32 sum = 0;
+    rep(i, n) {
+        a[i][2] = abs(a[i][1] - a[i][0]);
+    }
+    rep(i, n) { sum += a[i][2]; }
+    cout << sum / 2;
 }
  
 int main() {
-    int t{0};
-    cin >> t;
-    while (t--){
-       solve();
-    }   
+    solve();
     return 0;
 }

@@ -5,6 +5,7 @@
         "deque": "cpp",
         "bitset": "cpp",
         "iostream": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "unordered_map": "cpp"
     }
 }

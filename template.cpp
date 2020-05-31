@@ -27,15 +27,11 @@
  
 using namespace std;
 
-#define MEM(a, b)          memset(a, (b), sizeof(a))
-#define _for(i, j, k, in)  for (int i = j; i < k; i += in)
-#define _rfor(i, j, k, in) for (int i = j; i >= k; i -= in)
-#define rep(i, j)          FOR(i, 0, j, 1)
-#define rrep(i, j)         RFOR(i, j, 0, 1)
+#define rep(i, j)          for(int i = 0; i < j; i++)
+#define rrep(i, j)         for(int i = j-1; i >=0; i--)
 #define all(cont)          cont.begin(), cont.end()
 #define rall(cont)         cont.end(), cont.begin()
 #define foreach(it, l)     for (auto it = l.begin(); it != l.end(); it++)
-#define IN(A, B, C)        assert(B <= A && A <= C)
 #define sq(a)              (a)*(a)
 #define mp                 make_pair
 #define pb                 push_back
@@ -46,28 +42,8 @@ using namespace std;
 #define PI                 3.1415926535897932384626433832795
 #define MOD                1000000007
  
-// const double pi = acos(-1.0);
- 
-typedef pair<int, int>         pi;
-typedef pair< int, pi>         ppi;
-typedef vector<int>            vi;
-typedef vector<string>         vs;
-typedef vector<vi>             vvi;
-typedef map<int, int>          mapi;
-typedef set<int>               seti;
-typedef multimap<int, int>     mmapi;    
-typedef multiset<int>          mseti;
-typedef long int               int32;
-typedef unsigned long int      uint32;
-typedef long long int          int64;
-typedef unsigned long long int uint64;
- 
-template <typename T>
-void display(const vector<T> &l) {
-    cout << "\n" << "[ ";
-    for (const auto &element: l) { cout << element << " "; }
-    cout << "]";
-}
+typedef long long int          ll;
+typedef unsigned long long int ull;
  
 void solve() {
 

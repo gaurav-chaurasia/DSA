@@ -1,0 +1,50 @@
+## iterator class cpp
+> imp points about `#include <string>`
+
+```cpp
+#include <string>
+// to use smart pointer you want to include hedder file 
+```
+
+```cpp
+string str;
+getline(cin, str);
+// getline() to store a stream of characters   
+
+str.push_back('g'); 
+// pushes 'g' at the back of string
+
+str.pop_back();     
+// pops 'g' from the back of string
+
+str.capacity()  
+// returns the capacity allocated to the string, equal to or more than the size 
+
+
+auto it = str.end() // iterator to end of the string
+auto it = str.rend() // revers iterator to end of the string
+auto it = str.begin() // iterator to beginning of the string
+auto it = str.rbegin() // revers iterator to beginning of the string
+
+int postion = str.find('g') 
+int postion = str.find('gaurav') // returns first occurrence of gaurav 
+
+begin()=1  2 3 4 5 6 7 8  '\0'=end()
+   -       - - - - - - -  
+
+char ch = srt.front();
+char ch = srt.back();
+
+str.empty() 
+// returs true or false
+
+str.append(" added word"); 
+// str = str + " added word"
+
+str.append(str1, start_index, end_index);   
+// appends part of other string  
+
+str.compare(str1) 
+// returns 0 is strings are same
+
+```

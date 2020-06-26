@@ -1,5 +1,5 @@
 ## algorithm class cpp
-> imp points about #include<algorithm>
+> imp points about `#include<algorithm>`
 
 
 ### reverse(start_iterator, end_iterator)

@@ -1,33 +1,27 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
 using namespace std;
+#define mod 1000003;
 
-#define rep(i, j)          for(int i = 0; i < j; i++)
-#define rrep(i, j)         for(int i = j-1; i >=0; i--)
-#define all(cont)          cont.begin(), cont.end()
-#define rall(cont)         cont.end(), cont.begin()
-#define foreach(it, l)     for (auto it = l.begin(); it != l.end(); it++)
-#define sq(a)              (a)*(a)
-#define mp                 make_pair
-#define pb                 push_back
-#define f                  first
-#define s                  second
-#define INF                (int)1e9
-#define EPS                1e-9
-#define PI                 3.1415926535897932384626433832795
-#define MOD                1000000007
- 
-typedef long long int          ll;
-typedef unsigned long long int ull;
- 
-void solve() {
-
+int fact(int n) {
+    if(n==0) return 1 ; else return (n*fact(n-1)) %mod;
 }
- 
-int main() {
-    int t{0};
-    cin >> t;
-    while (t--){
-       solve();
-    }   
-    return 0;
+int findRank(string A) {
+    string s=A ;
+    int ans =0;
+    int n=s.length();
+    for(int i=0;i<n-1;i++) {
+        int c=0;
+        for(int j=i+1;j<n;j++) {
+                    if(s[j]<s[i])
+                        c++;
+            }   
+            ans+=( (c*fact(n-i-1)) )%mod;
+        }
+        return (ans+1 )%mod;
+} 
+int main () {
+    string str;
+    cin >> str;
+    cout << findRank(str) << endl;
 }

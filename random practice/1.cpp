@@ -4,19 +4,7 @@
 // repetation of digit not allowd
 #include <bits/stdc++.h>
 
-                                          using namespace std;
-
-#define deb(x)         cout << #x << " " << x << endl;
-#define all(cont)      cont.begin(), cont.end()
-#define rall(cont)     cont.end(), cont.begin()
-#define foreach(it, l) for (auto it = l.begin(); it != l.end(); it++)
-#define sq(a)          (a)*(a)
-#define mp             make_pair
-#define pb             push_back
-#define INF            (int)1e9
-#define EPS            1e-9
-#define PI             3.1415926535897932384626433832795
-#define MOD            1000000007
+using namespace std;
 
 typedef long long ll;
 typedef unsigned long long ull;
@@ -28,7 +16,7 @@ vector<int> getDigit(int num) {
         temp.push_back(num % 10);
         num /= 10;
     }
-    reverse(all(temp));
+    reverse(temp.begin(), temp.end());
     // sort(temp.begin(), temp.end());
     return temp;
 }

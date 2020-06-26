@@ -7,19 +7,6 @@
 
 using namespace std;
 
-#define deb(x)         cout << #x << " " << x << endl;
-#define all(cont)      cont.begin(), cont.end()
-#define rall(cont)     cont.end(), cont.begin()
-#define foreach(it, l) for (auto it = l.begin(); it != l.end(); it++)
-#define sq(a)          (a)*(a)
-#define mp             make_pair
-#define pb             push_back
-#define INF            (int)1e9
-#define EPS            1e-9
-#define PI             3.1415926535897932384626433832795
-#define MOD            1000000007
-
-// INT8_MAX , INT16_MAX, INT32_MAX , INT64_MAX,
 typedef long long ll;
 typedef unsigned long long ull;
 

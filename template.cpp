@@ -42,8 +42,8 @@ using namespace std;
 #define PI                 3.1415926535897932384626433832795
 #define MOD                1000000007
  
-typedef long long int          ll;
-typedef unsigned long long int ull;
+typedef long long ll;
+typedef unsigned long long ull;
  
 void solve() {
 

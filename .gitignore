@@ -1,5 +1,4 @@
 .vscode 
-
-*/*.out
-*/*.exe
+*.out
+*.exe
 !.gitignore

@@ -77,6 +77,7 @@ we can do better by iterating till UnderRoot(N)
   Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise, let p now equal this number (which is the next prime), and repeat from step 3.
 */
 vector<bool> prime(n+1, true);
+prime.at(0) = false;
 prime.at(1) = false;
 for (int i = 2; i <= sqrt(n); i++) {
   for (int j = 2; j*i <= n; j++) {
@@ -106,8 +107,8 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
     n P r/n P r-1 = n - r + 1.
 
 // Permutation with repetition allowed: 
-The number of permutation or arrangements of N numbers with repetition allowed will be NN.
- For Example, permutaions of {1,2} with repetitions will be {{1,1}, {1,2}, {2,1},{2,2}}.
+    The number of permutation or arrangements of N numbers with repetition allowed will be NN.
+    For Example, permutaions of {1,2} with repetitions will be {{1,1}, {1,2}, {2,1},{2,2}}.
 
 // Permutation with duplicates: 
     The number of permutations or arrangements of 

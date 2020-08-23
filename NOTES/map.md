@@ -1,5 +1,8 @@
-## map class cpp
+## map class cpp map and multimap 
 > imp points about `#include <map>`
+
+* implemented using `binary search tree` hence provides insert, update and, delete in just O(log(n)) time
+
 
 #### some genrale fun/methods in map
 ```cpp
@@ -74,7 +77,7 @@
             or 
     constant iterator map_name.find(key);
             or 
-    auto map_name.find(key);
+    auto iterator = map_name.find(key);
 
 ```
 #### lower_bound and upper_bound
@@ -93,3 +96,12 @@
     Return Value: The function returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then returned iterator points to map_name.end(). Note that end() is a special iterator that does not store address of a valid member of a map.
     */    
 ```
+
+
+
+
+
+## map class cpp unordered_map and unordered_multimap 
+> imp points about `#include <unordered_map>`
+
+* implemented using `hash table` hence provides insert, update and, delete in just O(1) time

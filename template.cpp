@@ -1,48 +1,35 @@
-// #include <bits/stdc++.h>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <sstream>
-#include <queue>
-#include <deque>
-#include <bitset>
-#include <iterator>
-#include <list>
-#include <stack>
-#include <map> // map and (multimap = can have multiple value with same key)
-#include <set> // set and multiset
-#include <unordered_map> // unordered_map and unordered_multimap
-#include <unordered_set> // unordered_set and unordered_multiset
-#include <functional>
-#include <numeric>
-#include <utility> // pair and many more
-#include <limits>
-#include <time.h>
-#include <math.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <assert.h>
+#include <bits/stdc++.h>
  
 using namespace std;
 
-#define sq(a) (a)*(a)
-#define EPS   1e-9
-#define PI    3.1415926535897932384626433832795
-#define MOD   1000000007
+#define setbits(x)      __builtin_popcountll(x) // gives number of set bits in a number
+#define zrobits(x)      __builtin_ctzll(x) // gives number of leading zeros 
+#define inf             1e18
+#define ps(x,y)         fixed<<setprecision(y)<<x // set y precision after decimal 
+#define mk(arr,n,type)  type *arr=new type[n]; // makes arr of size n 
+#define EPS   			1e-9 // almost zero 
+#define PI    			3.1415926535897932384626433832795
+#define w(x)            int x; cin>>x; while(x--)
+#define mod             1000000007 // 1e9+7
+#define deb(x)      	cout << #x << "=>" << x << endl;// print variable and it's value x=>5
  
 typedef long long ll;
 typedef unsigned long long ull;
- 
-void solve() {
+// void c_p_c() {
+// 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+// 	#ifndef ONLINE_JUDGE
+// 		freopen("input.txt", "r", stdin);
+// 		freopen("output.txt", "w", stdout);
+// 	#endif
+// }
 
+void solve() {
+	// your code goes here!!!
 }
  
 int main() {
-    int t{0};
-    cin >> t;
-    while (t--){
+	// c_p_c();
+    w(t){
        solve();
     }   
     return 0;

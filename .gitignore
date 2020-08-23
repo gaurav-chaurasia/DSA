@@ -1,4 +1,12 @@
+# deleteing all files without any extension
+*
+!/**/
+!*.*
+
 .vscode 
 *.out
 *.exe
+*.cph
+input.txt
+output.txt
 !.gitignore

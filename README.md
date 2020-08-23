@@ -11,3 +11,8 @@
     * smart pointer
     * iterators
     * vectors
+
+* Many imp Algorithms and their implimentation can be found in `ALGORITHM` folder
+    
+    * Kadane's Algorithm
+    * Merge Sort

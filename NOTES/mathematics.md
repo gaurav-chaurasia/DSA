@@ -117,3 +117,25 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
     pk are of k-th kind and the rest if any, 
     are of different kinds is: N! / (p1! * p2! *....*pk!).
 ```
+
+### fraction 
+```cpp
+	50 / 22 => (44 + 6) / 22 => (2) + (6 / 22);
+
+	// means if we want to calculate fraction till maybe 200 digit 
+	/*
+		we store leading value by floor(50/22) => 2
+	*/ 
+		str = '';
+		str += to_string(floore(50/22));
+		str.push_bacK('.'); // str => "2."
+	/*
+		Now we are left with  remainder(6) / denominator(22).
+
+		Multiply the remainder by 10.
+		Append remainder / denominator to str.
+		remainder = remainder % denominator.
+
+		and keep doing this till remainder = 0 or number of digit required
+	*/
+```

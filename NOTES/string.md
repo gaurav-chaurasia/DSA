@@ -1,51 +1,51 @@
-## iterator class cpp
+## string in cpp
 > imp points about `#include <string>`
 
 ```cpp
-#include <string>
-// to use smart pointer you want to include hedder file 
+	#include <string>
+	// to use smart pointer you want to include hedder file 
 ```
 
 ```cpp
-string str;
-getline(cin, str);
-// getline() to store a stream of characters   
+	string str;
+	getline(cin, str);
+	// getline() to store a stream of characters   
 
-str.push_back('g'); 
-// pushes 'g' at the back of string
+	str.push_back('g'); 
+	// pushes 'g' at the back of string
 
-str.pop_back();     
-// pops 'g' from the back of string
+	str.pop_back();     
+	// pops 'g' from the back of string
 
-str.capacity()  
-// returns the capacity allocated to the string, equal to or more than the size 
+	str.capacity()  
+	// returns the capacity allocated to the string, equal to or more than the size 
 
 
-auto it = str.end() // iterator to end of the string
-auto it = str.rend() // revers iterator to end of the string
-auto it = str.begin() // iterator to beginning of the string
-auto it = str.rbegin() // revers iterator to beginning of the string
+	auto it = str.end() // iterator to end of the string
+	auto it = str.rend() // revers iterator to end of the string
+	auto it = str.begin() // iterator to beginning of the string
+	auto it = str.rbegin() // revers iterator to beginning of the string
 
-int postion = str.find('g') 
-int postion = str.find('gaurav') // returns first occurrence of gaurav 
+	int postion = str.find('g') 
+	int postion = str.find('gaurav') // returns first occurrence of gaurav 
 
-begin()=1  2 3 4 5 6 7 8  '\0'=end()
-   -       - - - - - - -  
+	begin()=1  2 3 4 5 6 7 8  '\0'=end()
+	-       - - - - - - -  
 
-char ch = srt.front();
-char ch = srt.back();
+	char ch = srt.front();
+	char ch = srt.back();
 
-str.empty() 
-// returs true or false
+	str.empty() 
+	// returs true or false
 
-str.append(" added word"); 
-// str = str + " added word"
+	str.append(" added word"); 
+	// str = str + " added word"
 
-str.append(str1, start_index, end_index);   
-// appends part of other string  
+	str.append(str1, start_index, end_index);   
+	// appends part of other string  
 
-str.compare(str1) 
-// returns 0 is strings are same
+	str.compare(str1) 
+	// returns 0 is strings are same
 
 ```
 
@@ -58,10 +58,10 @@ str.compare(str1)
     int myint2 = stoi("3.14159"); // 3
     int myint3 = stoi("31337 geek"); //31337
    
-   # stoi() can take upto three parameters, the second parameter
-   is for starting index and third parameter is for base of
-   input number.
-   int stoi (const string&  str, size_t* index = 0, int base = 10); 
+	# stoi() can take upto three parameters, the second parameter
+	is for starting index and third parameter is for base of
+	input number.
+	int stoi (const string&  str, size_t* index = 0, int base = 10); 
 
 ```
 
@@ -101,15 +101,15 @@ str.compare(str1)
 ### converting int/flaot/double... to string
 * using `to_string`
 ```cpp
-   string str = to_string(int val);
-   string str = to_string(unsigned val);
-   string str = to_string(long val);
-   string str = to_string(unsigned long val);
-   string str = to_string(long long val);
-   string str = to_string(unsigned long long val);
-   string str = to_string(float val);
-   string str = to_string(double val);
-   string str = to_string(long double val);
+	string str = to_string(int val);
+	string str = to_string(unsigned val);
+	string str = to_string(long val);
+	string str = to_string(unsigned long val);
+	string str = to_string(long long val);
+	string str = to_string(unsigned long long val);
+	string str = to_string(float val);
+	string str = to_string(double val);
+	string str = to_string(long double val);
 
 	string stri = to_string(20388888); //20388888
 	string strf = to_string(30.5034485); //30.503448

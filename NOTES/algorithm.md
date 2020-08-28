@@ -41,3 +41,45 @@ range [first,last) which has a value greater than ‘x’.
 */
 
 ```
+
+## std::next_permutation 
+```cpp
+
+    /**
+     * 
+     * template 
+     *  bool next_permutation (BidirectionalIterator first,
+     *                      BidirectionalIterator last);
+     *  Parameters: 
+     *  first, last : Bidirectional iterators to the initial
+     *  and final positions of the sequence. The range 
+     *  used is [first, last), which contains all the elements 
+     *  between first and last, including the element pointed 
+     *  by first but not the element pointed by last.
+     *
+     *  return value: 
+     *  true : if the function could rearrange 
+     *  the object as a lexicographicaly greater permutation.
+     *  Otherwise, the function returns false to indicate that 
+     *  the arrangementis not greater than the previous, 
+     *  but the lowest possible (sorted in ascending order).
+     */
+
+    string str = "ABC"
+
+    std::next_permutation(str.begin(), str.end());
+    cout << str; // str-> "ACB"
+
+    std::prev_permutation(str.begin(), str.end());
+    cout << str; // str-> "ABC"
+
+    do {
+        cout << str << " -> ";
+    } while (std::next_permutation(str.begin(), str.end()));
+
+    /**
+     * output for above code 
+     * ABC -> ACB -> BAC -> BCA -> CAB -> CBA -> 
+    */
+
+```

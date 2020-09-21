@@ -43,6 +43,7 @@ void flood_fill(vector<vector<int>> grid, vector<vector<int>> &path, int x, int 
         for (int i = 0; i < row; i++) 
             for (int j = 0; j < col; j++) 
                 if (path[i][j] == 1) sum++;
+                
         if (sum > max_collection_of_one_type) {
             max_collection_of_one_type = max(max_collection_of_one_type, sum);
             for (int i = 0; i < row; i++)

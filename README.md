@@ -1,6 +1,6 @@
 # _________________________DSA_________________________
 
-> Ubuntu 18.04 LTS.
+> Ubuntu 18.04 LTS.  
 > Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)
 
 * All the imp concept and notes can be found in the `NOTES` folder

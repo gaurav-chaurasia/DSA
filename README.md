@@ -1,36 +1,37 @@
-# DataStructures-Algorithms
+# _________________________DSA_________________________
 
-> Ubuntu 18.04.4 LTS.
+> Ubuntu 18.04 LTS.
+> Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)
 
-* All the imp concept and notes can be found in `NOTES` folder
+* All the imp concept and notes can be found in the `NOTES` folder
 
-    * [headers `#include<>`](NOTES/headers.md)
-    * [mathematics `#include <math.h>` and general math concepts](NOTES/mathematics.md)
-    * [bitset `#include <bitset>`](NOTES/bitset.md)
-    * [string `#include <string>`](NOTES/string.md)
-    * [deque `#include <deque>`](NOTES/deque.md)
-	* [queue `#include <queue>`](NOTES/queue.md)
-	* [list `#include <list>`](NOTES/list.md)
-	* [stack `#include <stack>`](NOTES/stack.md)
-	* [pair `#include <utility>`](NOTES/utility.md)
-	* [vectors `#include <vector>`](NOTES/vector.md)
-	* [iterators `#include <iterator>`](NOTES/iterator.md)
-    * [algorithm `#include<algorithm>`](NOTES/algorithm.md)
-	* [smart pointer `#include <memory>`](NOTES/smart_pointer.md)
+    * `headers`, `#include<>` [link](NOTES/headers.md)
+    * `general math concepts`, `#include <math.h>` [link](NOTES/mathematics.md) 
+    * `bitset`, `#include <bitset>` [link](NOTES/bitset.md)
+    * `string `, `#include <string>` [link](NOTES/string.md)
+    * `deque `, `#include <deque>` [link](NOTES/deque.md)
+    * `queue `, `#include <queue>` [link](NOTES/queue.md)
+    * `list `, `#include <list>` [link](NOTES/list.md) 
+    * `stack `, `#include <stack>` [link](NOTES/stack.md) 
+    * `utility `, `#include <utility>` [link](NOTES/utility.md) 
+    * `vector `, `#include <vector>` [link](NOTES/vector.md) 
+    * `iterator `, `#include <iterator>` [link](NOTES/iterator.md) 
+    * `algorithm `, `#include<algorithm>` [link](NOTES/algorithm.md) 
+    * `smart_pointer`, `#include <memory>` [link](NOTES/smart_pointer.md) 
 
-    * [map & multimap](NOTES/map.md)
-    	* [ordered `#include <map>`](NOTES/map.md)
-    	* [unordered `#include <unordered_map>`](NOTES/map.md)
+    * `map & multimap`
+        * `#include <map>` [link](NOTES/map.md)
+        * `#include <unordered_map>` [link](NOTES/map.md) 
     
-    * [set & multiset](NOTES/set.md)
-	    * [ordered `#include <set>`](NOTES/set.md)
-	    * [unordered `#include <unordered_set>`](NOTES/set.md)
+    * `set & multiset`
+        * `set`, `#include <set>` [link](NOTES/set.md) 
+        * `map`, `#include <unordered_set>` [link](NOTES/set.md) 
 
-    * [bit](NOTES/bit.md)
-    * [bitmasking](NOTES/bitmasking.md)
-    * [limits `#include <limits>`](NOTES/limit.md)
+    * `bit` [link](NOTES/bit.md)
+    * `bitmasking` [link](NOTES/bitmasking.md)
+    * `#include <limits>` [link](NOTES/limit.md) 
 
-* Many imp Algorithms and their implimentation can be found in `ALGORITHM` folder
+* Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
     
-    * [`Kadane's Algorithm`]()
-    * [`Merge Sort`]()
+    * `Kadane's Algorithm` [link]() 
+    * `Merge Sort` [link]()

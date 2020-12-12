@@ -1,6 +1,9 @@
 ## imp points about smart pointers
 
 * they can only point to HEAP ALLOCATED memory 
+* `#include <memory>`
+    * `unique_ptr`
+    * `shared_ptr`
 
 ```cpp
 #include <memory>

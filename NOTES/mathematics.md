@@ -100,6 +100,11 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
 ```
 ### permutations
 ```cpp
+    n C r = (n!) / (r! *(n-r)!);
+
+    n P r = n! / (n-r)!
+
+
     n P n = n*(n-1)*(n-2)*......*1 = n!.
     n P 0 = n! / n! = 1.
     n P 1 = n.

@@ -9,4 +9,6 @@
 *.cph
 input.txt
 output.txt
+in
+out
 !.gitignore

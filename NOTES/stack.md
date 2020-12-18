@@ -1,5 +1,6 @@
 ## stack class cpp
 > imp points about `#include <stack>`  
+    
 > st.push(num)  
 > st.pop()  
 > st.empty()  
@@ -8,10 +9,10 @@
 
 #### declare stack
 ```cpp
-	stact<int> 				st;
-	stact<char> 			st;
-	stact<string>			st;
-	stact<pair<int, int>>	st;
+	stact<int>            st;
+	stact<char>           st;
+	stact<string>         st;
+	stact<pair<int, int>> st;
 ```
 
 #### imp methods for stack

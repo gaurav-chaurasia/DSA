@@ -2,7 +2,7 @@
  
 using namespace std;
 
-#define w(x)            int x; cin>>x; while(x--)
+#define w(x) int x; cin>>x; while(x--)
  
 typedef long long ll;
 typedef unsigned long long ull;

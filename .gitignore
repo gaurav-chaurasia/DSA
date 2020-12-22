@@ -9,6 +9,9 @@
 *.cph
 input.txt
 output.txt
+my_output.txt
+judge_output.txt
+diff.txt
 in
 out
 !.gitignore

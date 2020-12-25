@@ -17,7 +17,7 @@ void permutations(string &str, int start, int end) {
 		swap(str[start], str[i]);
 		permutations(str, start + 1, end);
 		swap(str[start], str[i]);
-	}	
+	}
 
 }
 

@@ -11,7 +11,8 @@
 	#define PI    			3.1415926535897932384626433832795
 	#define w(x)            int x; cin>>x; while(x--)
 	#define MOD             1000000007 // 1e9+7
-	#define DEB(x)      	cout << #x << "==>" << x << endl;// print variable and it's value x=>5
+	#define DEB(x)  		cout << "[ " << #x << " ==> " << x << " ]" << endl;// print variable and it's value x=>5
+	#define NL()   cout << endl;
 	#define MAX_CHAR 256 // number of char
 
 ```

@@ -32,8 +32,8 @@
 	begin()=1  2 3 4 5 6 7 8  '\0'=end()
 	-       - - - - - - -  
 
-	char ch = srt.front();
-	char ch = srt.back();
+	char ch = str.front();
+	char ch = str.back();
 
 	str.empty() 
 	// returs true or false

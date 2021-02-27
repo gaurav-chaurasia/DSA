@@ -2,6 +2,16 @@
 > imp points about `#include<algorithm>`
 
 
+### sort(start_iterator, end_iterator)
+```cpp    
+vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };
+sort(vec.begin(), vec.end()); 
+// accending order
+
+sort(vec.begin(), vec.end(), greater<int>()); 
+// desending order
+``` 
+
 ### reverse(start_iterator, end_iterator)
 ```cpp    
 vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };

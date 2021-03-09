@@ -1,5 +1,13 @@
+/**
+ * here things to keep in mind is 
+ * in each gondola at max 2 children can go 
+ * and total weight should not exceed x
+ * 
+ * here we will keep weight of childrens into a multiset
+ * multiset will keep weights in sorted order
+ * **/
 #include <iostream>
-#include <vector>
+#include <set> // set and multiset
 #include <algorithm>
 using namespace std;
 
@@ -9,21 +17,20 @@ typedef long long ll;
 typedef unsigned long long ull;
 
 void solve() {
-	// your code goes here!!!
-	int n, x; cin >> n >> x;
-	vector<int> p(n), b;
-	vector<vector<int>> a;
+	int n, x, t, cur_x = 0; cin >> n >> x;
+	multiset<int> p;
+	for (int i =0; i < n; i++) {
+		cin >> t;
+		p.insert(t);
+	} 
 
-	for (int i = 0; i < n; i++)
-		cin >> p[i];
+	int count = 0;
+	
 
-	sort(p.begin(), p.end(), greater<int>());
-	int curr_sum = 0, count = 1;
-	for (int i = 0; i < n; i++) {}
 	cout << count << endl;
 }
  
 int main() {
 	solve();
-    return 0;
+	return 0;
 }

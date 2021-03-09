@@ -3,34 +3,43 @@
  * in each gondola at max 2 children can go 
  * and total weight should not exceed x
  * 
- * here we will keep weight of childrens into a multiset
- * multiset will keep weights in sorted order
+ * here we will keep weight of childrens into a vector
+ * after sorting it we can use two pointer
+ * 
+ * ONE POINTER -> pointing on smallest element
+ * ANOTHER POINTER -> biggest element
+ * 
+ * as at max two children can go in one gondola
  * **/
 #include <iostream>
-#include <set> // set and multiset
+#include <vector>
 #include <algorithm>
 using namespace std;
 
-#define DEB(x) cout << "[ " << #x << " ==> " << x << " ]";
-#define NL()   cout << endl;
-typedef long long ll;
-typedef unsigned long long ull;
+int main() {
+	int n, x;
+	cin >> n >> x;
+	vector<int> p(n);
+	for (int i = 0; i < n; i++)
+		cin >> p[i];
 
-void solve() {
-	int n, x, t, cur_x = 0; cin >> n >> x;
-	multiset<int> p;
-	for (int i =0; i < n; i++) {
-		cin >> t;
-		p.insert(t);
-	} 
+	sort(p.begin(), p.end());
 
-	int count = 0;
-	
+	int i = 0, count = 0;
+	int j = n - 1;
+
+	while (i <= j) {
+		if (p[i] + p[j] <= x) {
+			count++;
+			i++;
+			j--;
+		}
+		else {
+			count++;
+			j--;
+		}
+	}
 
 	cout << count << endl;
-}
- 
-int main() {
-	solve();
 	return 0;
 }

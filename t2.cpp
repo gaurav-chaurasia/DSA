@@ -6,11 +6,9 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 
-void solve() {
-	// your code goes here!!!
-}
- 
 int main() {
-	solve();
+
+	// your code goes here!!!
+
     return 0;
 }

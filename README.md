@@ -36,3 +36,47 @@
     
     * `Kadane's Algorithm` [🎯](ALGORITHM/kadane’s_algorithm.cpp) 
     * `Merge Sort` [🎯](ALGORITHM/merge_sort.cpp)
+
+
+
+### PROBLEMS
+
+<details>
+    <summary>CSES</summary> <br>
+    <details>
+        <summary>Introductory ✔</summary>
+        <pre>
+            <a href="#">Apple Division</a>
+            <a href="#">Bit Strings</a>
+            <a href="#">Chessboard and Queens</a>
+            <a href="#">Coin Piles</a>
+            <a href="#">Creating String 1</a>
+            <a href="#">Grid Path ✖</a>
+            <a href="#">Increasing Array</a>
+            <a href="#">Missing Number</a>
+            <a href="#">Number Spiral</a>
+            <a href="#">Palindrome Reorder</a>
+            <a href="#">Permutations</a>
+            <a href="#">Repetitions</a>
+            <a href="#">Trailing Zeros</a>
+            <a href="#">Two Sets</a>
+            <a href="#">Weird Algorithm</a>
+        </pre>
+    </details>
+    <details>
+        <summary>String Algorithms</summary>
+        <pre>
+            <a href="#"> </a>
+        </pre>
+    </details>
+    <details>
+        <summary>Sorting and Searching</summary>
+        <pre>
+            <a href="#">Apartments</a>
+            <a href="#">Concert Tickets</a>
+            <a href="#">Distinct Number</a>
+            <a href="#">Ferris Wheel</a>
+            <a href="#">Resturent Customers 👁‍🗨🔘</a>
+        </pre>
+    </details>
+</details>

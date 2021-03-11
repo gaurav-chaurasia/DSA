@@ -60,23 +60,50 @@
 ```cpp
     vector<int> vec ={1 , 2, 3, 4, 5, 7, 7, 8, 9, 13, 15};
     int x = 12;
-    binary_search(first_iterator, last_iterator, x); //false
+                  ___________range_____________
+    std::binary_search(first_iterator, last_iterator, x); //false
     // Tests whether x exists in sorted vector or not
 
-    lower_bound(first_iterator, last_iterator, x); //iterator to 9
+    std::lower_bound(first_iterator, last_iterator, 12); //iterator to 13
+    std::lower_bound(first_iterator, last_iterator, 9); //iterator to 9
+    
     /*
-    points to first element <= x
+    points to first element >= x
     – returns an iterator pointing to the first element in the
     range [first,last) which has a value not less than ‘x’.
     */
 
-    upper_bound(first_iterator, last_iterator, x); //iterator to 13
+    std::upper_bound(first_iterator, last_iterator, 12); //iterator to 13
     /*
     points to first element > x
     – returns an iterator pointing to the first element in the
     range [first,last) which has a value greater than ‘x’.
-
     */
+
+    //my
+    std::first_equal_to_or_greater_than() // lower_bound >= x
+    std::first_greater_than() // upper_bound > x
+    std::first_equal_to_or_less_than() // custom <= x 
+    std::first_less_than() // custom < x
+    //
+
+    template<typename ForwardIterator, typename T>
+    ForwardIterator first_equal_to_or_less_than(ForwardIterator first, ForwardIterator last, T value) {
+        
+        auto it = std::lower_bound(first, last, value);
+        
+        if (*it == value)
+            return it;
+
+        return (it == first ? last : --it);
+    }
+
+    template<typename ForwardIterator, typename T>
+    ForwardIterator first_less_than(ForwardIterator first, ForwardIterator last, T value) {
+        
+        auto it = std::lower_bound(first, last, value);
+        return (it == first ? last : --it);
+    }
 
 ```
 

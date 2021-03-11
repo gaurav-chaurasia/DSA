@@ -5,34 +5,34 @@
 
 * All the imp concept and notes can be found in the `NOTES` folder
 
-    * `headers` [link](NOTES/headers.md)
-    * `define` [link](NOTES/define.md)
-    * `general math concepts` [link](NOTES/mathematics.md) 
-    * `bitset` [link](NOTES/bitset.md)
-    * `string ` [link](NOTES/string.md)
-    * `deque ` [link](NOTES/deque.md)
-    * `queue ` [link](NOTES/queue.md)
-    * `list ` [link](NOTES/list.md) 
-    * `stack ` [link](NOTES/stack.md) 
-    * `utility ` [link](NOTES/utility.md) 
-    * `vector ` [link](NOTES/vector.md) 
-    * `iterator ` [link](NOTES/iterator.md) 
-    * `algorithm ` [link](NOTES/algorithm.md) 
-    * `smart_pointer and memory` [link](NOTES/smart_pointer.md) 
+    * `headers` [🎯](NOTES/headers.md)
+    * `define` [🎯](NOTES/define.md)
+    * `general math concepts` [🎯](NOTES/mathematics.md) 
+    * `bitset` [🎯](NOTES/bitset.md)
+    * `string ` [🎯](NOTES/string.md)
+    * `deque ` [🎯](NOTES/deque.md)
+    * `queue ` [🎯](NOTES/queue.md)
+    * `list ` [🎯](NOTES/list.md) 
+    * `stack ` [🎯](NOTES/stack.md) 
+    * `utility ` [🎯](NOTES/utility.md) 
+    * `vector ` [🎯](NOTES/vector.md) 
+    * `iterator ` [🎯](NOTES/iterator.md) 
+    * `algorithm ` [🎯](NOTES/algorithm.md) 
+    * `smart_pointer and memory` [🎯](NOTES/smart_pointer.md) 
 
     * `map & multimap`
-        * `#include <map>` [link](NOTES/map.md)
-        * `#include <unordered_map>` [link](NOTES/map.md) 
+        * `#include <map>` [🎯](NOTES/map.md)
+        * `#include <unordered_map>` [🎯](NOTES/map.md) 
     
     * `set & multiset`
-        * `#include <set>` [link](NOTES/set.md) 
-        * `#include <unordered_set>` [link](NOTES/set.md) 
+        * `#include <set>` [🎯](NOTES/set.md) 
+        * `#include <unordered_set>` [🎯](NOTES/set.md) 
 
-    * `bit` [link](NOTES/bit.md)
-    * `bitmasking` [link](NOTES/bitmasking.md)
-    * `limits, MAX, MIN ...` [link](NOTES/limit.md) 
+    * `bit` [🎯](NOTES/bit.md)
+    * `bitmasking` [🎯](NOTES/bitmasking.md)
+    * `limits, MAX, MIN ...` [🎯](NOTES/limit.md) 
 
 * Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
     
-    * `Kadane's Algorithm` [link]() 
-    * `Merge Sort` [link]()
+    * `Kadane's Algorithm` [🎯](ALGORITHM/kadane’s_algorithm.cpp) 
+    * `Merge Sort` [🎯](ALGORITHM/merge_sort.cpp)

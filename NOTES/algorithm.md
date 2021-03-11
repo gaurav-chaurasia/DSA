@@ -2,6 +2,16 @@
 > imp points about `#include<algorithm>`
 
 
+> `sort` [🎯](#sort(start_iterator, end_iterator))  
+> `reverse` [🎯](#reverse(start_iterator, end_iterator))  
+> `distance` [🎯](#distance(a.begin(), iterator))  
+> `erase` [🎯](#erase(iterator))  
+> `binary_search` [🎯](#binary_search)  
+> `next_permutation` [🎯](#next_permutation)    
+> ✔🔃🔰🚥🧷⚡🎯🧲📎
+
+
+
 ### sort(start_iterator, end_iterator)
 ```cpp    
     vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -92,10 +102,10 @@
         
         auto it = std::lower_bound(first, last, value);
         
-        if (*it == value)
-            return it;
+        if (*it == value) return it;
 
         return (it == first ? last : --it);
+    
     }
 
     template<typename ForwardIterator, typename T>
@@ -103,11 +113,12 @@
         
         auto it = std::lower_bound(first, last, value);
         return (it == first ? last : --it);
+    
     }
 
 ```
 
-## std::next_permutation 
+## next_permutation 
 ```cpp
 
     /**

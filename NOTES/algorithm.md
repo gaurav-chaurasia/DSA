@@ -2,9 +2,9 @@
 > imp points about `#include<algorithm>`
 
 
-> `sort` [🎯](#sort(start_iterator, end_iterator))  
-> `reverse` [🎯](#reverse(start_iterator, end_iterator))  
-> `distance` [🎯](#distance(a.begin(), iterator))  
+> `sort` [🎯](#sort)  
+> `reverse` [🎯](#reverse)  
+> `distance` [🎯](#distance)  
 > `erase` [🎯](#erase(iterator))  
 > `binary_search` [🎯](#binary_search)  
 > `next_permutation` [🎯](#next_permutation)    
@@ -12,7 +12,7 @@
 
 
 
-### sort(start_iterator, end_iterator)
+### sort
 ```cpp    
     vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };
     sort(vec.begin(), vec.end()); 
@@ -22,14 +22,14 @@
     // desending order
 ``` 
 
-### reverse(start_iterator, end_iterator)
+### reverse
 ```cpp    
     vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };
     reverse(vec.begin(), vec.end()); 
     //note [start, end) end is not encluded
 ```   
 
-### distance(a.begin(), iterator) 
+### distance
 ```cpp
     auto it = find(arr.begin(), arr.end(), value);
     int index = distance(arr.begin(), it);
@@ -38,7 +38,7 @@
     */
 ```
 
-### erase(iterator) 
+### erase
 ```cpp
     iterator list_name.erase(iterator position)
             or

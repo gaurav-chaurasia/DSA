@@ -118,3 +118,9 @@
         </pre>
     </details>
 </details>
+<details>
+    <summary>Rondome</summary>
+    <pre>
+        Minimum swaps and K together <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>
+    </pre>
+</details>

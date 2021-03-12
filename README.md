@@ -79,4 +79,42 @@
             <a href="#">Resturent Customers 👁‍🗨🔘</a>
         </pre>
     </details>
+    <details>
+        <summary>Mathematics</summary>
+        <pre>
+            <a href="#"> </a>
+        </pre>
+    </details>
+    <details>
+        <summary>Tree</summary>
+        <pre>
+            problem - 1 <a href="#">README</a> <a href="#">CODE</a>
+            problem - 2 <a href="#">CODE</a>
+            problem - 3 <a href="#">README</a>
+        </pre>
+    </details>
+    <details>
+        <summary>Dynamic Programming</summary>
+        <pre>
+            <a href="#"> </a>
+        </pre>
+    </details>
+    <details>
+        <summary>Graphs</summary>
+        <pre>
+            <a href="#"> </a>
+        </pre>
+    </details>
+    <details>
+        <summary>Range Queries</summary>
+        <pre>
+            <a href="#"> </a>
+        </pre>
+    </details>
+    <details>
+        <summary>Additional</summary>
+        <pre>
+            <a href="#"> </a>
+        </pre>
+    </details>
 </details>

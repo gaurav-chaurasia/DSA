@@ -46,21 +46,21 @@
     <details>
         <summary>Introductory ✔</summary>
         <pre>
-            <a href="#">Apple Division</a>
-            <a href="#">Bit Strings</a>
-            <a href="#">Chessboard and Queens</a>
-            <a href="#">Coin Piles</a>
-            <a href="#">Creating String 1</a>
-            <a href="#">Grid Path ✖</a>
-            <a href="#">Increasing Array</a>
-            <a href="#">Missing Number</a>
-            <a href="#">Number Spiral</a>
-            <a href="#">Palindrome Reorder</a>
-            <a href="#">Permutations</a>
-            <a href="#">Repetitions</a>
-            <a href="#">Trailing Zeros</a>
-            <a href="#">Two Sets</a>
-            <a href="#">Weird Algorithm</a>
+            Apple Division <a href="#">CODE</a>
+            Bit Strings <a href="#">CODE</a>
+            Chessboard and Queens <a href="#">CODE</a>
+            Coin Piles <a href="#">CODE</a>
+            Creating String 1 <a href="#">CODE</a>
+            Grid Path ✖ <a href="#">README</a> <a href="#">CODE</a>
+            Increasing Array <a href="#">CODE</a>
+            Missing Number <a href="#">CODE</a>
+            Number Spiral <a href="#">CODE</a>
+            Palindrome Reorder <a href="#">CODE</a>
+            Permutations <a href="#">CODE</a>
+            Repetitions <a href="#">CODE</a>
+            Trailing Zeros <a href="#">CODE</a>
+            Two Sets <a href="#">CODE</a>
+            Weird Algorithm <a href="#">CODE</a>
         </pre>
     </details>
     <details>
@@ -72,11 +72,16 @@
     <details>
         <summary>Sorting and Searching</summary>
         <pre>
-            <a href="#">Apartments</a>
-            <a href="#">Concert Tickets</a>
-            <a href="#">Distinct Number</a>
-            <a href="#">Ferris Wheel</a>
-            <a href="#">Resturent Customers 👁‍🗨🔘</a>
+            Apartments <a href="#">CODE</a>
+            Concert Tickets <a href="#">CODE</a>
+            Distinct Number <a href="#">CODE</a>
+            Ferris Wheel <a href="#">CODE</a>
+            Resturent Customers 👁‍🗨🔘 <a href="#">CODE</a>
+            Max Subarray Sum <a href="#">CODE</a>
+            Movie Festival <a href="#">CODE</a>
+            Sum of Two Value <a href="#">CODE</a>
+            Stick Length <a href="#">README</a> <a href="#">CODE</a>
+            Missing Coin Sum 👁‍🗨🔘 <a href="#">README</a> <a href="#">CODE</a>
         </pre>
     </details>
     <details>

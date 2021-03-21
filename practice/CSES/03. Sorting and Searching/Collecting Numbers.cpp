@@ -41,17 +41,35 @@ public:
 
         cout << ans << endl;
     }
-
+    // good solution
     void SOL_02() {
+        int n; cin >> n;
+        vector<bool> arr(n+1, false);
+        vector<int> num(n);
 
+        for (int i = 0; i < n; i++) cin >> num[i];
+
+        for (int i = 0; i < n; i++) {
+            if (arr[num[i] - 1]) {
+                arr[num[i] - 1] = false;
+            } 
+            arr[num[i]] = true;
+        }
+
+        int ans = 0; 
+        for (bool it: arr) 
+            if (it) 
+                ans++;
+
+        cout << ans << endl;
     }
 };
 
 int main() {
     Solution* SOL1 = new Solution();
 
-    SOL1->SOL_01();
-    // SOL1->SOL_02();
+    // SOL1->SOL_01();
+    SOL1->SOL_02();
     // SOL1->SOL_03();
     // SOL1->SOL_04();
 

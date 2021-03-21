@@ -14,6 +14,7 @@
     * `queue` [🎯](NOTES/queue.md)
     * `list` [🎯](NOTES/list.md) 
     * `stack` [🎯](NOTES/stack.md) 
+    * `tuple` [🎯](NOTES/tuple.md) 
     * `utility` [🎯](NOTES/utility.md) 
     * `vector` [🎯](NOTES/vector.md) 
     * `iterator` [🎯](NOTES/iterator.md) 

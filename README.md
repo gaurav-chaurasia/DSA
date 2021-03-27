@@ -35,8 +35,9 @@
 
 * Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
     
-    * `Kadane's Algorithm` [🎯](ALGORITHM/kadane’s_algorithm.cpp) 
-    * `Merge Sort` [🎯](ALGORITHM/merge_sort.cpp)
+    * `Kadane's Algorithm` [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
+    * `Merge Sort` [CODE](ALGORITHM/merge_sort.cpp)
+    * `Moore's Voting` [CODE](ALGORITHM/Moore's_Voting.cpp) [README](ALGORITHM/docs/Moore's_Voting.md)
 
 
 

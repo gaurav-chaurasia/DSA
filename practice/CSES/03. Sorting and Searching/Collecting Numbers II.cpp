@@ -19,9 +19,7 @@ public:
         vector<bool> arr(n + 1, false);        
         
         // swaping those two numbers
-        num[a - 1] = num[a - 1] ^ num[b - 1];
-        num[b - 1] = num[a - 1] ^ num[b - 1];
-        num[a - 1] = num[a - 1] ^ num[b - 1];
+        swap(num[a - 1],  num[b - 1]);
 
         for (int i = 0; i < n; i++) {
             if (arr[num[i] - 1]) {

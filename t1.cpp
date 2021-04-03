@@ -10,7 +10,7 @@ typedef unsigned long long ull;
 class Solution {
 
 public:
-    void SOL_01(int n) {
+    void SOL_01() {
         // your code goes here!!!
     }
 

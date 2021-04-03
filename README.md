@@ -43,6 +43,7 @@
 
 ### PROBLEMS
 
+> `CESE`  
 <details>
     <summary>CSES</summary> <br>
     <details>
@@ -126,8 +127,11 @@
     </details>
 </details>
 
+<br>
+
+> `TOPICS`
 <details>
-    <summary>Topics</summary>
+    <summary>TOPICS</summary> <br>
     <details>
         <summary>DP</summary>
         <pre>
@@ -136,8 +140,11 @@
     </details>
 </details>
 
+<br>
+
+> `RANDOM`
 <details>
-    <summary>Rondome</summary>
+    <summary>RANDOM</summary> <br>
     <pre>
         Minimum swaps and K together <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>
     </pre>

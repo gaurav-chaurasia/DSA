@@ -18,6 +18,8 @@ public:
 
  
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
     Solution* SOL = new Solution();
     
     w(t) {

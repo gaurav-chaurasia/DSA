@@ -3,18 +3,18 @@
 
 >> [TO_LEARN](https://youtu.be/St0Jf_VmG_g?list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd)   
 ```py
-            -------------
-    i = 0   | 0, 1, 1, 0 | --> all these can be represented in the form of 1D array
-    i = 1   | 1, 1, 1, 1 | -->
-    i = 2   | 1, 1, 1, 1 | -->
-    i = 3   | 1, 1, 0, 0 | -->
-            -------------
+              --------------
+    row = 0   | 0, 1, 1, 0 | --> all these can be represented in the form of 1D array
+    row = 1   | 1, 1, 1, 1 | -->
+    row = 2   | 1, 1, 1, 1 | -->
+    row = 3   | 1, 1, 0, 0 | -->
+              --------------
     
     for example
-    i = 0 --> histogram [0, 1, 1, 0] --> each element in this array represents height of the building
-    i = 1 --> histogram [1, 2, 2, 1]
-    i = 2 --> histogram [2, 3, 3, 2]
-    i = 3 --> histogram [3, 4, 0, 0]
+    row = 0 --> histogram [0, 1, 1, 0] --> each element in this array represents height of the building
+    row = 1 --> histogram [1, 2, 2, 1]
+    row = 2 --> histogram [2, 3, 3, 2]
+    row = 3 --> histogram [3, 4, 0, 0]
     
 ```
 ```cpp

@@ -1,0 +1,6 @@
+a -----> Valid Pair
+b -----> World Record
+c -----> Strong Language
+d -----> Chef and Dice
+e -----> Worthy Matrix
+f -----> Binary String MEX 

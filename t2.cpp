@@ -18,13 +18,10 @@ public:
  
 int main() {
     ios::sync_with_stdio(false);
-    cin.tie(NULL);
+    cin.tie(0);
     Solution* SOL = new Solution();
     
     SOL->SOL_01();
-    // SOL1->SOL_02();
-    // SOL1->SOL_03();
-    // SOL1->SOL_04();
     
     delete SOL;
     return 0;

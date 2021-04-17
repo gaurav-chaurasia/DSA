@@ -133,6 +133,21 @@
 <details>
     <summary>TOPICS</summary> <br>
     <details>
+        <summary>Stack</summary>
+        <pre>
+            next_smallest_element_right <a href="#">README</a> <a href="#">CODE</a>
+            next_largest_element_right <a href="#">README</a> <a href="#">CODE</a>
+            next_smallest_element_left <a href="#">README</a> <a href="#">CODE</a>
+            next_largest_element_left <a href="#">README</a> <a href="#">CODE</a>
+        </pre>
+    </details>
+    <details>
+        <summary>Heap</summary>
+        <pre>
+            k_largest_number <a href="#">README</a> <a href="#">CODE</a>
+        </pre>
+    </details>
+    <details>
         <summary>DP</summary>
         <pre>
             0/1 knapsack <a href="#">README</a> <a href="#">CODE</a>

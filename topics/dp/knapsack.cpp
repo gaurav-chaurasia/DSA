@@ -6,8 +6,8 @@ using namespace std;
 typedef long long ll;
 typedef unsigned long long ull;
 
-#define ROW 10e6;
-#define COL 10e6;
+#define ROW 100
+#define COL 100
 int dp[ROW][COL];
 
 class Solution {
@@ -17,7 +17,7 @@ public:
      * 0/1 Knapsack recursive code
      * 
      * */ 
-    int knapsack(vecotr<int> wt, vector<int> val, int w, int n) {
+    int knapsack(vector<int> wt, vector<int> val, int w, int n) {
         if (n == 0 or w == 0) {
             return 0;
         }
@@ -37,7 +37,7 @@ public:
      * Knapsack Memoization code
      * 
      * */
-    int knapsack_dp(vecotr<int> wt, vector<int> val, int w, int n) {
+    int knapsack_dp(vector<int> wt, vector<int> val, int w, int n) {
         if (dp[n][w] != -1) {
             return dp[n][w];
         }
@@ -57,7 +57,7 @@ public:
      * Knapsack top_down
      * 
      * */
-    int knapsack_td(vecotr<int> wt, vector<int> val, int w, int n) {
+    int knapsack_td(vector<int> wt, vector<int> val, int w, int n) {
         // initialize dp
         for (int i = 0, j = 0; i <= n; i++) dp[i][j] = 0;
         for (int i = 0, j = 0; j <= w ; j++) dp[i][j] = 0;
@@ -86,12 +86,15 @@ int main() {
 
     // initializing dp with -1
     memset(dp, -1, sizeof(dp));
+ 
+    vector<int> wt = {1, 3, 4, 5};
+    vector<int> val = {1, 4, 5, 7};
+    int weight = 7;
+    int n = 4;
 
-    int ANS01 = SOL->knapsack();
-    int ANS02 = SOL->knapsack_dp();
-    int ANS03 = SOL->knapsack_td();
-    // SOL1->SOL_03();
-    // SOL1->SOL_04();
+    DEB(SOL->knapsack(wt, val, weight, n));
+    DEB(SOL->knapsack_dp(wt, val, weight, n));
+    DEB(SOL->knapsack_td(wt, val, weight, n));
     
     delete SOL;
     return 0;

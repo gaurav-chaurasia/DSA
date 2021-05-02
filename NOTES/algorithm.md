@@ -116,6 +116,11 @@
     
     }
 
+    // for set or multiset
+    set<int> s;
+    int x = 15;
+    auto it = s.upper_bound(x); 
+    auto it = s.lower_bound(x); 
 ```
 
 ## next_permutation 

@@ -26,7 +26,7 @@
     1 << n ==> 2^n;
 
 ```
-* shift operators,
+### shift operators
 
     #### left shift  '<<'
     ```cpp

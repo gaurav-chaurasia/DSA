@@ -132,38 +132,30 @@
 
 <br>
 
-> `TOPICS`
-<details>
-    <summary>TOPICS</summary> <br>
-    <details>
-        <summary>Stack</summary>
-        <pre>
-            next_smallest_element_right <a href="#">README</a> <a href="#">CODE</a>
-            next_largest_element_right <a href="#">README</a> <a href="#">CODE</a>
-            next_smallest_element_left <a href="#">README</a> <a href="#">CODE</a>
-            next_largest_element_left <a href="#">README</a> <a href="#">CODE</a>
-        </pre>
-    </details>
-    <details>
-        <summary>Heap</summary>
-        <pre>
-            k_largest_number <a href="#">README</a> <a href="#">CODE</a>
-        </pre>
-    </details>
-    <details>
-        <summary>DP</summary>
-        <pre>
-            0/1 knapsack <a href="#">README</a> <a href="#">CODE</a>
-        </pre>
-    </details>
-</details>
+> `TOPICS`  
 
-<br>
+> ``Stack``
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>  
 
-> `RANDOM`
-<details>
-    <summary>RANDOM</summary> <br>
-    <pre>
-        Minimum swaps and K together <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>
-    </pre>
-</details>
+
+> ``Heap``
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  k_largest_number | <a href="#">README</a> | <a href="#">CODE</a>  
+
+
+> ``DP`` 
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  knapsack | <a href="#">README</a> | <a href="#">CODE</a>  
+
+
+> ``RANDOM`` 
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  minimum_swaps_and_K_together | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>  

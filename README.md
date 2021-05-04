@@ -1,4 +1,7 @@
 # _________________________DSA_________________________
+[![Generic badge](https://img.shields.io/badge/language-c++-green.svg)](https://github.com/gaurav-chaurasia/)  [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://gaurav-chaurasia.github.io/)
+
+
 
 > Ubuntu 18.04 LTS.  
 > Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)

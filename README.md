@@ -40,10 +40,12 @@
      * `ALGO`
        ALGORITHM | README | CODE
        --- | --- | ---
-       `Kadane's Algorithm` | <a href="#">README</a> | [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
-       `Merge Sort` | <a href="#">README</a> | [CODE](ALGORITHM/merge_sort.cpp)
+       `Kadane's Algorithm` |  | [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
+       `Merge Sort` |  | [CODE](ALGORITHM/merge_sort.cpp)
        `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
 
+
+<br>  
 
 ## `TOPICS`     
 > ### ``Stack``
@@ -74,6 +76,7 @@
 
 
 
+<br>  
 
 ## `CSES` `PROBLEMS`   
 > ### ``Introductory ✔``

@@ -37,15 +37,15 @@
     * `limits, MAX, MIN ...` [🎯](NOTES/limit.md) 
 
 * Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
-    
-    * `Kadane's Algorithm` [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
-    * `Merge Sort` [CODE](ALGORITHM/merge_sort.cpp)
-    * `Moore's Voting` [CODE](ALGORITHM/Moore's_Voting.cpp) [README](ALGORITHM/docs/Moore's_Voting.md)
+     * `ALGO`
+       ALGORITHM | README | CODE
+       --- | --- | ---
+       `Kadane's Algorithm` | <a href="#">README</a> | [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
+       `Merge Sort` | <a href="#">README</a> | [CODE](ALGORITHM/merge_sort.cpp)
+       `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
 
 
-
-### PROBLEMS    
-## `CSES`   
+## `CSES` `PROBLEMS`   
 > ### ``Introductory ✔``
 > QUESTIONS | README | CODE
 >  --- | --- | ---

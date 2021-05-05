@@ -47,8 +47,8 @@
 
 <br>  
 
-## `TOPICS`     
-> ### ``Stack``
+### `TOPICS`     
+> #### ``Stack``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 >  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
@@ -57,19 +57,19 @@
 >  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>  
 
 
-> ### ``Heap``
+> #### ``Heap``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 >  k_largest_number | <a href="#">README</a> | <a href="#">CODE</a>  
 
 
-> ### ``DP`` 
+> #### ``DP`` 
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 >  knapsack | <a href="#">README</a> | <a href="#">CODE</a>  
 
 
-> ### ``RANDOM`` 
+> #### ``RANDOM`` 
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 >  minimum_swaps_and_K_together | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>  
@@ -78,8 +78,8 @@
 
 <br>  
 
-## `CSES` `PROBLEMS`   
-> ### ``Introductory ✔``
+### `CSES` `PROBLEMS`   
+> #### ``Introductory ✔``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 >  Apple Division | <a href="#">README</a> | <a href="#">CODE</a>
@@ -99,7 +99,7 @@
 >  Weird Algorithm | <a href="#">README</a> | <a href="#">CODE</a>  
 
 
-> ### ``Sorting and Searching``
+> #### ``Sorting and Searching``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 >  Apartments | <a href="#">README</a> | <a href="#">CODE</a>
@@ -114,31 +114,31 @@
 >  Missing Coin Sum 👁‍🗨🔘 | <a href="#">README</a> | <a href="#">CODE</a>  
 
 
-> ### ``Mathematics``
+> #### ``Mathematics``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 
 
-> ### ``Dynamic Programming``
+> #### ``Dynamic Programming``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 
 
-> ### ``Graphs``
+> #### ``Graphs``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 
 
-> ### ``Range Queries``
+> #### ``Range Queries``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 
 
-> ### ``String Algorithms``
+> #### ``String Algorithms``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
 
 
-> ### ``Additional``
+> #### ``Additional``
 > QUESTIONS | README | CODE
 >  --- | --- | ---

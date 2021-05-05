@@ -26,6 +26,26 @@ public:
             );
         }
     }
+
+    // LCS
+    // returns the length of LCS
+    int longest_common_subsequence_memoized(int n, string str1, int m, string str2, vector<vector<int>> dp)
+    {
+        if (n == 0 or m == 0) return 0;
+        if (dp[n][m] != -1) return dp[n][m];
+
+        if (str1[n - 1] == str2[m - 1])
+        {
+            return dp[n][m] = 1 + longest_common_subsequence_memoized(n - 1, str1, m - 1, str2, dp);
+        }
+        else
+        {
+            return dp[n][m] = max(
+                longest_common_subsequence_memoized(n, str1, m - 1, str2, dp),
+                longest_common_subsequence_memoized(n - 1, str1, m, str2, dp)
+            );
+        }
+    }
 };
 
 int main()
@@ -36,7 +56,12 @@ int main()
 
     string S1 = "abcdgh";
     string S2 = "abedfhr";
-    DEB(SOL->longest_common_subsequence(S1.size(), S1, S2.size(), S2));
+    int n = S1.size();
+    int m = S2.size();
+    DEB(SOL->longest_common_subsequence(n, S1, m, S2));
+
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1, -1));
+    DEB(SOL->longest_common_subsequence_memoized(n, S1, m, S2, dp));
 
     delete SOL;
     return 0;

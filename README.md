@@ -45,6 +45,36 @@
        `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
 
 
+## `TOPICS`     
+> ### ``Stack``
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
+>  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>  
+
+
+> ### ``Heap``
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  k_largest_number | <a href="#">README</a> | <a href="#">CODE</a>  
+
+
+> ### ``DP`` 
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  knapsack | <a href="#">README</a> | <a href="#">CODE</a>  
+
+
+> ### ``RANDOM`` 
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  minimum_swaps_and_K_together | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>  
+
+
+
+
 ## `CSES` `PROBLEMS`   
 > ### ``Introductory ✔``
 > QUESTIONS | README | CODE
@@ -109,32 +139,3 @@
 > ### ``Additional``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
-
-
-
-## `TOPICS`     
-> ### ``Stack``
-> QUESTIONS | README | CODE
->  --- | --- | ---
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>  
-
-
-> ### ``Heap``
-> QUESTIONS | README | CODE
->  --- | --- | ---
->  k_largest_number | <a href="#">README</a> | <a href="#">CODE</a>  
-
-
-> ### ``DP`` 
-> QUESTIONS | README | CODE
->  --- | --- | ---
->  knapsack | <a href="#">README</a> | <a href="#">CODE</a>  
-
-
-> ### ``RANDOM`` 
-> QUESTIONS | README | CODE
->  --- | --- | ---
->  minimum_swaps_and_K_together | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/doc/random/min_swap_k_together.md">README</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/practice/random/min_swap_k_together.cpp">CODE</a>  

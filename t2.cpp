@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
-using vi = vector<int>;
 using pi = pair<int, int>;
 
 #define MAX_CHAR 256
@@ -12,9 +11,6 @@ using pi = pair<int, int>;
 #define sz(x) (int)(x).size()
 #define f first
 #define s second
-#define pb push_back
-#define mp make_pair
-#define rsz resize
 
 class Solution {
 

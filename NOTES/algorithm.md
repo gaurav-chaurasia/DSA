@@ -20,6 +20,12 @@
 
     sort(vec.begin(), vec.end(), greater<int>()); 
     // desending order
+
+    static bool compare(int a, int b) {
+        return a < b;
+    }
+    sort(vec.begin(), vec.end(), compare); 
+
 ``` 
 
 ### reverse

@@ -32,8 +32,7 @@
         * `#include <set>` [🎯](NOTES/set.md) 
         * `#include <unordered_set>` [🎯](NOTES/set.md) 
 
-    * `bit` [🎯](NOTES/bit.md)
-    * `bitmasking` [🎯](NOTES/bitmasking.md)
+    * `bit-magic` [🎯](NOTES/bitmasking.md)
     * `limits, MAX, MIN ...` [🎯](NOTES/limit.md) 
 
 * Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder

@@ -2,13 +2,14 @@
 > imp points about `#include<algorithm>`
 
 
-> `sort` [🎯](#sort)  
-> `reverse` [🎯](#reverse)  
-> `distance` [🎯](#distance)  
-> `erase` [🎯](#erase(iterator))  
-> `binary_search` [🎯](#binary_search)  
-> `next_permutation` [🎯](#next_permutation)    
-> ✔🔃🔰🚥🧷⚡🎯🧲📎
+>  
+>  [`sort`](#sort)  
+>  [`reverse`](#reverse)  
+>  [`distance`](#distance)  
+>  [`erase`](#erase(iterator))  
+>  [`binary_search`](#binary_search)  
+>  [`next_permutation`](#next_permutation)    
+>  
 
 
 

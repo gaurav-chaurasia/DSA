@@ -1,5 +1,24 @@
 ## bitmask cpp
+## bit manupulation and tricks  
+> imp points about `bit operations`  
 
+>  
+>  [`properties`](#properties)  
+>  [`general`](#sort)  
+>  [`shift_operators`](#shift_operators)  
+>  [`check_odd___even`](#odd___even)  
+>  [`count_setbits`](#count_setbits)  
+>  [`XOR_swap`](#XOR_swap)  
+>  [`get__set__unset`](#get__set__unset)    
+>  
+
+
+### properties
+```cpp
+     1) property of XOR i.e for any number x, x^x =0.
+```
+
+### general
 ```cpp
     // bitwise AND => '&'
         0 , 1 -> 0
@@ -26,7 +45,7 @@
     1 << n ==> 2^n;
 
 ```
-### shift operators
+### shift_operators
 
     #### left shift  '<<'
     ```cpp
@@ -40,7 +59,8 @@
         a >> b  =>  a / 2^b
     ```
 
-### check num is odd/even
+### odd___even
+- fast way to check the odd even
 ```cpp
     int num = 7 // 1 1 1 
     if (num & 1) {
@@ -50,7 +70,7 @@
     }
 ```
 
-### count setbits 
+### count_setbits 
 ```cpp
     int count_set_bits(int num) {
         int count = 0;
@@ -62,7 +82,7 @@
     }
 ```
 
-### XOR swap very fast
+### XOR_swap
 ```cpp
     int a = 5;
     int b = 7;
@@ -71,7 +91,11 @@
     a = a ^ b; // (5 ^ 7) ^ (5) -> 7 
 ```
 
-### get, set, and unset i'th bit of a number
+### get__set__unset
+- get i'th bit of a number
+- set i'th bit of a number
+- unset i'th bit of a number
+ 
 ``` cpp
     //
     int get_i_bit(int num, int i) {

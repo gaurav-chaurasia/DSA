@@ -14,5 +14,17 @@
 	#define DEB(x)  		cout << "[ " << #x << " ==> " << x << " ]" << endl;// print variable and it's value x=>5
 	#define NL()   cout << endl;
 	#define MAX_CHAR 256 // number of char
+	
+	using ll = long long;
+	using vi = vector<int>;
+	using pi = pair<int,int>;
+	
+	#define pb push_back
+	#define rsz resize
+	#define all(x) begin(x), end(x)
+	#define sz(x) (int)(x).size()
+	#define f first
+	#define s second
+	#define mp make_pair
 
 ```

@@ -11,23 +11,43 @@ using pi = pair<int, int>;
 #define sz(x) (int)(x).size()
 #define f first
 #define s second
-
-class Solution {
-
+int ans = INT_MAX;
+class Solution
+{
 public:
-    void SOL_01() {
-    }
+    int SOL_01(int num)
+    {
+        vector<int> dp(num + 1);
 
+        for (int i = 1; i <= num; i++)
+        {
+            int temp = i;
+            int min_steps = INT_MAX;
+            while (temp != 0)
+            {
+                int di = temp % 10;
+                temp = temp / 10;
+                if (di == 0) 
+                    continue;
+                
+                min_steps = min(min_steps, 1 + dp[i - di]);
+            }
+            dp[i] = min_steps;
+        }
+        return dp[num];
+    }
 };
 
- 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(0);
-    Solution* SOL = new Solution();
-    
-    SOL->SOL_01();
-    
+    Solution *SOL = new Solution();
+
+    int n;
+    cin >> n;
+    cout << SOL->SOL_01(n) << endl;
+
     delete SOL;
     return 0;
 }

@@ -27,4 +27,25 @@
 	#define s second
 	#define mp make_pair
 
+	typedef pair<int, int>         pi;
+	typedef pair< int, pi>         ppi;
+	typedef vector<int>            vi;
+	typedef vector<char>           vc;
+	typedef vector<string>         vs;
+	typedef vector<vi>             vvi;
+	typedef map<int, int>          mapi;
+	typedef set<int>               seti;
+	typedef multiset<int>          mseti;
+	typedef long int               int32;
+	typedef unsigned long int      uint32;
+	typedef long long              ll;
+	typedef long long int          int64;
+	typedef unsigned long long int uint64;
+	
+	template <typename T>
+	void display(const vector<T> &l) {
+		cout << "\n" << "[ ";
+		for (const auto &element: l) { cout << element << " "; }
+		cout << "]";
+	}
 ```

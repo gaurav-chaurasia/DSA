@@ -1,42 +1,36 @@
 # _________________________DSA_________________________
-[![Generic badge](https://img.shields.io/badge/language-c++-green.svg)](https://github.com/gaurav-chaurasia/)  [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://gaurav-chaurasia.github.io/)
-
-
-
+[![Generic badge](https://img.shields.io/badge/language-c++-green.svg)](https://github.com/gaurav-chaurasia/)  [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://gaurav-chaurasia.github.io/)   
 > Ubuntu 18.04 LTS.  
 > Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)
 
-* All the imp concept and notes can be found in the `NOTES` folder
+- All the imp concept and notes can be found in the `NOTES` folder
+    - [headers](NOTES/headers.md)
+    - [define](NOTES/define.md)
+    - [maths](NOTES/mathematics.md) 
+    - [bitset](NOTES/bitset.md)
+    - [string](NOTES/string.md)
+    - [deque](NOTES/deque.md)
+    - [queue](NOTES/queue.md)
+    - [list](NOTES/list.md) 
+    - [stack](NOTES/stack.md) 
+    - [tuple](NOTES/tuple.md) 
+    - [utility](NOTES/utility.md) 
+    - [vector](NOTES/vector.md) 
+    - [iterator](NOTES/iterator.md) 
+    - [algorithm](NOTES/algorithm.md) 
+    - [smart_pointer and memory](NOTES/smart_pointer.md) 
+    - map and multimap
+        - [#include <map>](NOTES/map.md)
+        - [#include <unordered_map>](NOTES/map.md) 
+    - set and multiset
+        - [#include <set>](NOTES/set.md) 
+        - [#include <unordered_set>](NOTES/set.md) 
+    - [bit-magic](NOTES/bitmasking.md)
+    - [limits, MAX, MIN ...](NOTES/limit.md) 
 
-    * `headers` [🎯](NOTES/headers.md)
-    * `define` [🎯](NOTES/define.md)
-    * `maths` [🎯](NOTES/mathematics.md) 
-    * `bitset` [🎯](NOTES/bitset.md)
-    * `string` [🎯](NOTES/string.md)
-    * `deque` [🎯](NOTES/deque.md)
-    * `queue` [🎯](NOTES/queue.md)
-    * `list` [🎯](NOTES/list.md) 
-    * `stack` [🎯](NOTES/stack.md) 
-    * `tuple` [🎯](NOTES/tuple.md) 
-    * `utility` [🎯](NOTES/utility.md) 
-    * `vector` [🎯](NOTES/vector.md) 
-    * `iterator` [🎯](NOTES/iterator.md) 
-    * `algorithm` [🎯](NOTES/algorithm.md) 
-    * `smart_pointer and memory` [🎯](NOTES/smart_pointer.md) 
 
-    * `map & multimap`
-        * `#include <map>` [🎯](NOTES/map.md)
-        * `#include <unordered_map>` [🎯](NOTES/map.md) 
-    
-    * `set & multiset`
-        * `#include <set>` [🎯](NOTES/set.md) 
-        * `#include <unordered_set>` [🎯](NOTES/set.md) 
-
-    * `bit-magic` [🎯](NOTES/bitmasking.md)
-    * `limits, MAX, MIN ...` [🎯](NOTES/limit.md) 
-
-* Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
-     * `ALGO`
+- Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
+     - `ALGO`
        ALGORITHM | README | CODE
        --- | --- | ---
        `Kadane's Algorithm` |  | [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
@@ -114,30 +108,30 @@
 
 
 > #### ``Mathematics``
-> QUESTIONS | README | CODE
->  --- | --- | ---
+> 
+> 
 
 
 > #### ``Dynamic Programming``
-> QUESTIONS | README | CODE
->  --- | --- | ---
+> 
+> 
 
 
 > #### ``Graphs``
-> QUESTIONS | README | CODE
->  --- | --- | ---
+> 
+> 
 
 
 > #### ``Range Queries``
-> QUESTIONS | README | CODE
->  --- | --- | ---
+> 
+> 
 
 
 > #### ``String Algorithms``
-> QUESTIONS | README | CODE
->  --- | --- | ---
+> 
+> 
 
 
 > #### ``Additional``
-> QUESTIONS | README | CODE
->  --- | --- | ---
+> 
+> 

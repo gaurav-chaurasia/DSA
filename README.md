@@ -44,22 +44,39 @@
 > #### ``Stack``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>
->  next_smallest_element_right | <a href="#">README</a> | <a href="#">CODE</a>  
+>  max_area_histogram | <a href="#">README</a> | <a href="topics/stack/max_area_histogram.cpp">CODE</a>
+>  max_area_rect_binary_matrix | <a href="#">README</a> | <a href="topics/stack/max_area_rect_binary_matrix.cpp">CODE</a>
+>  min_element_in_stack | <a href="#">README</a> | <a href="topics/stack/min_element_in_stack.cpp">CODE</a>
+>  next_largest_element | <a href="#">README</a> | <a href="topics/stack/next_largest_element.cpp">CODE</a>  
+>  next_smallest_element | <a href="#">README</a> | <a href="topics/stack/next_smallest_element.cpp">CODE</a>  
+>  rain_water_trapping | <a href="#">README</a> | <a href="topics/stack/rain_water_trapping.cpp">CODE</a>  
+>  stock_span_problem | <a href="#">README</a> | <a href="topics/stack/stock_span_problem.cpp">CODE</a>  
 
 
 > #### ``Heap``
 > QUESTIONS | README | CODE
 >  --- | --- | ---
->  k_largest_number | <a href="#">README</a> | <a href="#">CODE</a>  
+>  k_closest_number | <a href="#">README</a> | <a href="topics/heap/k_closest_number.cpp">CODE</a>  
+>  k_largest_element | <a href="#">README</a> | <a href="topics/heap/k_largest_element.cpp">CODE</a>  
+>  k_smallest_element | <a href="#">README</a> | <a href="topics/heap/k_smallest_element.cpp">CODE</a>  
+>  sort_k_sorted_array | <a href="#">README</a> | <a href="topics/heap/sort_k_sorted_array.cpp">CODE</a>  
+>  connect_rope_to_minimize_cost | <a href="#">README</a> | <a href="topics/heap/connect_rope_to_minimize_cost.cpp">CODE</a>  
 
 
 > #### ``DP`` 
 > QUESTIONS | README | CODE
 >  --- | --- | ---
->  knapsack | <a href="#">README</a> | <a href="#">CODE</a>  
+>  knapsack | <a href="#">README</a> | <a href="topics/dp/knapsack.cpp">CODE</a>  
+>  coin_change_1 | <a href="#">README</a> | <a href="topics/dp/coin_change_1.cpp">CODE</a>  
+>  coin_change_2 | <a href="#">README</a> | <a href="topics/dp/coin_change_2.cpp">CODE</a>  
+>  count_number_of_subset_with_given_difference | <a href="#">README</a> | <a href="topics/dp/count_number_of_subset_with_given_difference.cpp">CODE</a>  
+>  count_subset_with_given_sum | <a href="#">README</a> | <a href="topics/dp/count_subset_with_given_sum.cpp">CODE</a>  
+>  equal_sum_partition | <a href="#">README</a> | <a href="topics/dp/equal_sum_partition.cpp">CODE</a>  
+>  fib | <a href="#">README</a> | <a href="topics/dp/fib.cpp">CODE</a>  
+>  minimum_subset_sum_diffrence | <a href="#">README</a> | <a href="topics/dp/minimum_subset_sum_diffrence.cpp">CODE</a>  
+>  rod_cutting_problem | <a href="#">README</a> | <a href="topics/dp/rod_cutting_problem.cpp">CODE</a>  
+>  subset_sum | <a href="#">README</a> | <a href="topics/dp/subset_sum.cpp">CODE</a>  
+>  target_sum | <a href="#">README</a> | <a href="topics/dp/target_sum.cpp">CODE</a>  
 
 
 > #### ``RANDOM`` 
@@ -99,12 +116,12 @@
 >  Concert Tickets | <a href="#">README</a> | <a href="#">CODE</a>
 >  Distinct Number | <a href="#">README</a> | <a href="#">CODE</a>
 >  Ferris Wheel | <a href="#">README</a> | <a href="#">CODE</a>  
->  Resturent Customers 👁‍🗨🔘 | <a href="#">README</a> | <a href="#">CODE</a>  
+>  Resturent Customers 👁‍🗨 | <a href="#">README</a> | <a href="#">CODE</a>  
 >  Max Subarray Sum | <a href="#">README</a> | <a href="#">CODE</a>  
 >  Movie Festival | <a href="#">README</a> | <a href="#">CODE</a>  
 >  Sum of Two Value | <a href="#">README</a> | <a href="#">CODE</a>  
 >  Stick Length | <a href="#">README</a> | <a href="#">CODE</a>  
->  Missing Coin Sum 👁‍🗨🔘 | <a href="#">README</a> | <a href="#">CODE</a>  
+>  Missing Coin Sum 👁‍🗨 | <a href="#">README</a> | <a href="#">CODE</a>  
 
 
 > #### ``Mathematics``

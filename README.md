@@ -36,6 +36,7 @@
        `Kadane's Algorithm` |  | [CODE](ALGORITHM/kadane’s_algorithm.cpp) 
        `Merge Sort` |  | [CODE](ALGORITHM/merge_sort.cpp)
        `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
+       `Euclidean Algorithms` | [README](ALGORITHM/docs/euclidean_algorithms.md) |  [CODE](ALGORITHM/euclidean_algorithms.cpp)
 
 
 <br>  

@@ -3,7 +3,71 @@
 > include headder file `#include <math.h>`
 
 
-### number of digit
+
+>  
+>  [`LCM_and_GCD`](#LCM_and_GCD)  
+>  [`number_of_digit`](#number_of_digit)  
+>  [`Arithematic and geometric progression`](#AP_and_GP)  
+>  [`Prime_Numbers`](#Prime_Numbers)  
+>  [`factorials`](#factorials)  
+>  [`permutations`](#permutations)  
+>  [`fraction`](#fraction)  
+>  
+
+
+### `LCM_and_GCD`
+- LCM (Least Common Multiple) of two numbers is the smallest number which can be divided by both numbers
+- A simple solution is to find all prime factors of both numbers, then find union of all factors present in both numbers. Finally, return the product of elements in union
+```cpp
+	void prime_factors(int n) {
+		// step 1
+		// Print the number of 2s that divide n
+		while (n % 2 == 0) {
+			cout << 2 << " ";
+			n = n/2;
+		}
+	
+		// step 2
+		// n must be odd at this point. So we can skip
+		// one element (Note i = i +2)
+		for (int i = 3; i <= sqrt(n); i = i + 2) {
+			// While i divides n, print i and divide n
+			while (n % i == 0) {
+				cout << i << " ";
+				n = n/i;
+			}
+		}
+
+		// step 3
+		// This condition is to handle the case when n
+		// is a prime number greater than 2
+		if (n > 2)
+			cout << n << " ";
+	}
+```
+- An efficient solution is based on the below formula for LCM of two numbers ‘a’ and ‘b’
+```cpp
+	a x b = LCM(a, b) * GCD (a, b)
+
+	LCM(a, b) = (a x b) / GCD(a, b)
+```
+```cpp
+	long long GCD(long long int a, long long int b) {
+		if (b == 0)
+			return a;
+		return GCD(b, a % b);
+	}
+
+	long long LCM(int a, int b) {
+		return (a / GCD(a, b)) * b;
+	}
+  
+```
+- [Detailed explanation for GCD](../ALGORITHM/docs/euclidean_algorithms.md)
+
+
+
+### `number_of_digit`
 ```cpp
 /*
 number of digit can easily be find by deviding the number by 10 and 
@@ -22,7 +86,7 @@ number of digit of any number N is K;
 //timecomplexity will be O(1)
 ```
 
-### Arithematic and geometric progression
+### `AP_and_GP`
 ```cpp
 // nth term of an AP = a + (n-1) * d
 
@@ -47,7 +111,7 @@ where d = common difference;
 
 ```
 
-### Prime Numbers
+### Prime_Numbers
 ```cpp
 /*
 Naive Method to Check if a number is Prime:
@@ -76,18 +140,20 @@ we can do better by iterating till UnderRoot(N)
   
   Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise, let p now equal this number (which is the next prime), and repeat from step 3.
 */
-vector<bool> prime(n+1, true);
-prime.at(0) = false;
-prime.at(1) = false;
-for (int i = 2; i <= sqrt(n); i++) {
-  for (int j = 2; j*i <= n; j++) {
-    prime.at(i*j) = false;
-  }
-}
+	vector<bool> prime(n+1, true);
+	prime.at(0) = false;
+	prime.at(1) = false;
+	for (int i = 2; i <= sqrt(n); i++) {
+		for (int j = 2; j*i <= n; j++) {
+			prime.at(i*j) = false;
+		}
+	}
 
 // now we have prime vector whiche stores given number is prime or not in O(1) time
 
 ```
+
+
 
 ### factorials
 ```cpp

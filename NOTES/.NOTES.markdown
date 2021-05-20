@@ -1,0 +1,5 @@
+# `NOTES` 
+
+- first always think of math approach to a problem 
+- a * b * c = GCD(a * b * c) * LCM(a * b * c) `LCM` `GCD`
+- if GCD(a, b) == 1 -> a and b are co-prime

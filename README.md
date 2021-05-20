@@ -41,6 +41,15 @@
 
 <br>  
 
+> ### ``IMP``
+> problems full of concepts  
+> QUESTIONS | LINK | CODE | TAGS  
+>  --- | --- | --- | ---
+>  cut | <a href="https://codeforces.com/contest/1516/problem/D">Problem</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/contest/codeforces/R%23720/d.cpp">CODE</a> `NC` | `GCD` `LCM` `Prime Factors` `DP` `Binary Lifting` `Sieve`   
+>
+
+<br>  
+
 ### `TOPICS`     
 > #### ``Stack``
 > QUESTIONS | README | CODE

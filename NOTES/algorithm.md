@@ -13,7 +13,7 @@
 
 
 
-### sort
+### `sort`
 ```cpp    
     vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };
     sort(vec.begin(), vec.end()); 
@@ -29,14 +29,14 @@
 
 ``` 
 
-### reverse
+### `reverse`
 ```cpp    
     vector<int> vec ={1 , 2, 3, 4, 5, 6, 7, 8, 9 };
     reverse(vec.begin(), vec.end()); 
     //note [start, end) end is not encluded
 ```   
 
-### distance
+### `distance`
 ```cpp
     auto it = find(arr.begin(), arr.end(), value);
     int index = distance(arr.begin(), it);
@@ -45,7 +45,7 @@
     */
 ```
 
-### erase
+### `erase`
 ```cpp
     iterator list_name.erase(iterator position)
             or
@@ -73,7 +73,7 @@
 
 ```
 
-### binary_search
+### `binary_search`
 ```cpp
     vector<int> vec ={1 , 2, 3, 4, 5, 7, 7, 8, 9, 13, 15};
     int x = 12;
@@ -130,7 +130,7 @@
     auto it = s.lower_bound(x); 
 ```
 
-## next_permutation 
+## `next_permutation` 
 ```cpp
 
     /**

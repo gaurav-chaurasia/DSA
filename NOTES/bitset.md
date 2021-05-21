@@ -2,11 +2,11 @@
 > imp points about `#include <bitset>`
 
 >
->  [`general`](#general)
->  [` `]()
->  [` `]()
->  [` `]()
->
+>  [`general`](#general)  
+>  [` `]()  
+>  [` `]()  
+>  [` `]()  
+>  
 
 
 ### general

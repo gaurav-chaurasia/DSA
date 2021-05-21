@@ -14,12 +14,12 @@
 >  
 
 
-### properties
+### `properties`
 ```cpp
      1) property of XOR i.e for any number x, x^x =0.
 ```
 
-### general
+### `general`
 ```cpp
     // bitwise AND => '&'
         0 , 1 -> 0
@@ -46,21 +46,21 @@
     1 << n ==> 2^n;
 
 ```
-### shift_operators
+### `shift_operators`
 
-    #### left shift  '<<'
-    ```cpp
-        a << 1  =>  a * 2
-        a << b  =>  a * 2^b
-    ```
+#### left shift  '<<'
+```cpp
+    a << 1  =>  a * 2
+    a << b  =>  a * 2^b
+```
 
-    #### right shift  '>>'
-    ```cpp
-        a >> 1  =>  a / 2
-        a >> b  =>  a / 2^b
-    ```
+#### right shift  '>>'
+```cpp
+    a >> 1  =>  a / 2
+    a >> b  =>  a / 2^b
+```
 
-### odd___even
+### `odd___even`
 - fast way to check the odd even
 ```cpp
     int num = 7 // 1 1 1 
@@ -71,7 +71,7 @@
     }
 ```
 
-### count_setbits 
+### `count_setbits` 
 ```cpp
     int count_set_bits(int num) {
         int count = 0;
@@ -83,7 +83,7 @@
     }
 ```
 
-### XOR_swap
+### `XOR_swap`
 ```cpp
     int a = 5;
     int b = 7;
@@ -92,7 +92,7 @@
     a = a ^ b; // (5 ^ 7) ^ (5) -> 7 
 ```
 
-### get__set__unset
+### `get__set__unset`
 - get i'th bit of a number
 - set i'th bit of a number
 - unset i'th bit of a number
@@ -115,7 +115,7 @@
     }
 ```
 
-### right_most_set_and_unset_bit
+### `right_most_set_and_unset_bit`
 - position of right most set and unset bit of any number 
 
 > #### `setbit` `unsetbit`

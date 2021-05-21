@@ -1,10 +1,18 @@
 ## list class cpp
 > imp points about `#include <list>`
 
+>
+> [`general`](#general)  
+> [`insert element at any place`](#insert_element)  
+> [`erase an element or range of element`](#erase_element)  
+> [`travers_list`](#travers_list)  
+> [``]()  
+>
+
 * normally list refers to doubly linked list
 * for singlly linked list we use for 
 
-#### genral 
+#### `general`
 ```cpp
     #include <list>
     //to use list we must include list headder file 
@@ -33,7 +41,7 @@
     int_list.size(); // reurns the size of list
 
 ```
-#### intert element at any place
+#### `insert_element`
 ```cpp
     list <int> g;
     g.insert(pos_iter, ele_num, ele);
@@ -48,7 +56,7 @@
     */ 
 ```
 
-#### erase an element or range of element
+#### erase_element
 ```cpp
     list <int> :: iterator it;
               or
@@ -60,7 +68,7 @@
 
 ```
 
-#### travers in list
+#### travers_list
 ```cpp
     list<int> :: iterator it = int_list.begin();
                         or

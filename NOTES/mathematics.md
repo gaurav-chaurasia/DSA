@@ -113,7 +113,7 @@ where d = common difference;
 
 ```
 
-### Prime_Numbers
+### `Prime_Numbers`
 ```cpp
 /*
 Naive Method to Check if a number is Prime:
@@ -157,7 +157,7 @@ we can do better by iterating till UnderRoot(N)
 
 
 
-### factorials
+### `factorials`
 ```cpp
 Trailing 0s in N! = Count of 5s in prime factors of n!
                   = floor(n/5) + floor(n/25) + floor(n/125) + ....
@@ -166,7 +166,7 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
                   = floor(n/x) + floor( n/(x*x) ) + floor(n/(x*x*x)) + ....
 
 ```
-### permutations
+### `permutations`
 ```cpp
     n C r = (n!) / (r! *(n-r)!);
 
@@ -191,7 +191,7 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
     are of different kinds is: N! / (p1! * p2! *....*pk!).
 ```
 
-### fraction 
+### `fraction` 
 ```cpp
 	50 / 22 => (44 + 6) / 22 => (2) + (6 / 22);
 
@@ -213,7 +213,7 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
 	*/
 ```
 
-### decimal_to_binary
+### `decimal_to_binary`
 ```cpp 
     void decimal_to_binary(int n, vector<int> &arr) {
         arr.clear();
@@ -236,7 +236,7 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
     }
 ```
 
-### binary_to_decimal
+### `binary_to_decimal`
 ```cpp
     int binary_to_decimal (int n /*binary num 0011010*/) {
         int num = n;

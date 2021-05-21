@@ -12,6 +12,8 @@
 >  [`factorials`](#factorials)  
 >  [`permutations`](#permutations)  
 >  [`fraction`](#fraction)  
+>  [`decimal_to_binary`](#decimal_to_binary)  
+>  [`binary_to_decimaly`](#binary_to_decimal)  
 >  
 
 
@@ -209,4 +211,65 @@ Trailing 0s in N! = Count of 5s in prime factors of n!
 
 		and keep doing this till remainder = 0 or number of digit required
 	*/
+```
+
+### decimal_to_binary
+```cpp 
+    void decimal_to_binary(int n, vector<int> &arr) {
+        arr.clear();
+        arr.resize(32);
+
+        int i = 0;
+        while (n > 0) {
+            arr[i] = n % 2;
+            n /= 2;
+            i++;
+        }
+
+        reverse(arr.begin(), arr.end());
+    }
+
+    void decimal_to_binary(int n, string &str) {
+        str = bitset<32>(n).to_string();
+
+        cout << "[ " << str << " ]" << endl;
+    }
+```
+
+### binary_to_decimal
+```cpp
+    int binary_to_decimal (int n /*binary num 0011010*/) {
+        int num = n;
+        int dec_value = 0;
+        int base = 1;
+
+        while (num) {
+            int last_digit = num % 10;
+            num /= 10;
+
+            dec_value += last_digit * base;
+            base = base * 2;
+        }
+
+        return dec_value;
+    }
+
+    int binary_to_decimal (string n /*decimal num "001011001"*/) {
+        string num = n;
+        int dec_value = 0;
+        int base = 1;
+
+        for (int i = num.size() - 1; i >= 0; i--) {
+            if (num[i] == '1')
+                dec_value += base;
+            
+            base = base * 2;
+        }
+
+        return dec_value;
+    }
+
+    int binary_to_decimal (string n) {
+        return stoi(n, 0, 2);
+    }
 ```

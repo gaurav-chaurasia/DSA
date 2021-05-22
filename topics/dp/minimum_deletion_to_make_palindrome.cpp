@@ -10,6 +10,8 @@ class Solution
 {
 
 public:
+    // minimum num of insertions and deletions to make a string 
+    // palindrome is same
     void minimun_num_of_deletion_to_make_palindrome(int n, string a, int m, string b)
     {
         int dp[n + 1][m + 1];

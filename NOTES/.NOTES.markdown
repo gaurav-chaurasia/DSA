@@ -1,5 +1,6 @@
 # `NOTES` 
 
 - first always think of math approach to a problem 
-- a * b * c = GCD(a * b * c) * LCM(a * b * c) `LCM` `GCD`
-- if GCD(a, b) == 1 -> a and b are co-prime
+- `a * b * c = GCD(a * b * c) * LCM(a * b * c)`
+- if `GCD(a, b) == 1` -> a and b are co-prime
+- for any general series write it in terms of prev element `An = An-1 + (somthign)` 

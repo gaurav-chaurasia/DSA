@@ -3,7 +3,7 @@
 > Ubuntu 18.04 LTS.  
 > Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)
 
-- All the imp concept and notes can be found in the `NOTES` folder
+- All the imp concept and notes can be found in the `[NOTES](NOTES/.NOTES.markdown)` folder
     - [headers](NOTES/headers.md)
     - [define](NOTES/define.md)
     - [maths](NOTES/mathematics.md) 
@@ -26,7 +26,7 @@
         - [#include <set>](NOTES/set.md) 
         - [#include <unordered_set>](NOTES/set.md) 
     - [bit-magic](NOTES/bitmasking.md)
-    - [limits, MAX, MIN ...](NOTES/limit.md) 
+    - [LIMITS, MAX, MIN ...](NOTES/limit.md) 
 
 
 - Many imp Algorithms and their implementation can be found in the `ALGORITHM` folder
@@ -87,6 +87,14 @@
 >  rod_cutting_problem | <a href="#">README</a> | <a href="topics/dp/rod_cutting_problem.cpp">CODE</a>  
 >  subset_sum | <a href="#">README</a> | <a href="topics/dp/subset_sum.cpp">CODE</a>  
 >  target_sum | <a href="#">README</a> | <a href="topics/dp/target_sum.cpp">CODE</a>  
+
+
+> #### ``SLIDING_WINDOW`` 
+> QUESTIONS | README | CODE
+>  --- | --- | ---
+>  Max Sub-array Sum of size k | <a href="">README</a> | <a href="">CODE</a>  
+>  First Negative Num in window | <a href="">README</a> | <a href="">CODE</a>  
+>  Count Auccerences of Anagram | <a href="">README</a> | <a href="">CODE</a>  
 
 
 > #### ``RANDOM`` 

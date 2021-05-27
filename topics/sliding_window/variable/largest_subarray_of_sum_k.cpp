@@ -16,8 +16,35 @@ using pi = pair<int, int>;
 class Solution {
 
 public:
+    // question is 
+    // we will be given an array @arr of numbers and a total @k
+    // we are suppose to find the max subarray with sun = @k
     void largest_subarray_of_sum_k(int n, vector<int> arr, int k) {
-        
+        int mx_subarray_len = 0;
+        int i = 0, j = 0;
+        ll sum = 0;
+
+        while (j < arr.size()) {
+            sum += arr[j];
+
+            if (sum < k) {
+                j++;
+            }
+            else if (sum == k) {
+                // calculating answer
+                mx_subarray_len = max(mx_subarray_len, j - i + 1);
+                j++;
+            }
+            else {
+                while (sum > k) {
+                    sum -= arr[i];
+                    i++;
+                }
+                j++;
+            }
+        }
+
+        DEB(mx_subarray_len);
     }
 
 };
@@ -26,7 +53,8 @@ public:
 int main() {
     Solution* SOL = new Solution();
     
-    SOL->SOL_01();
+    vector<int> arr = {4, 1, 1, 1, 2, 3, 5};
+    SOL->largest_subarray_of_sum_k(arr.size(), arr, 5);
     
     delete SOL;
     return 0;

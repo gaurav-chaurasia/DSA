@@ -55,8 +55,8 @@
 	dec.pop_back();
 	dec.pop_front();
 
-	int last = dec.last(); // returns last element
-	int first = dec.first(); // returns first element 
+	int last = dec.back(); // returns last element
+	int first = dec.front(); // returns first element 
 
 	dec.erase(it);
 	dec.push_front(1);

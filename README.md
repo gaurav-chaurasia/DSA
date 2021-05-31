@@ -3,7 +3,9 @@
 > Ubuntu 18.04 LTS.  
 > Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)
 
-- All the imp concept and notes can be found in the `[NOTES](NOTES/.NOTES.markdown)` folder
+- All the imp concept and notes can be found in the [`NOTES`](NOTES/.NOTES.markdown) folder
+    - [TOPICS](NOTES/.TOPICS.markdown)
+    - [NOTES](NOTES/.NOTES.markdown)
     - [headers](NOTES/headers.md)
     - [define](NOTES/define.md)
     - [maths](NOTES/mathematics.md) 
@@ -46,6 +48,7 @@
 > QUESTIONS | LINK | CODE | TAGS  
 >  --- | --- | --- | ---
 >  cut | <a href="https://codeforces.com/contest/1516/problem/D">Problem</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/contest/codeforces/R%23720/d.cpp">CODE</a> `NC` | `GCD` `LCM` `Prime Factors` `DP` `Binary Lifting` `Sieve`   
+>  count_occurrences_of_anagrams | <a href="https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1">Problem</a> | <a href="#">CODE</a> `C` | `Sliding-Window` `Map`   
 >
 
 <br>  

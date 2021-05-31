@@ -7,7 +7,6 @@ using pi = pair<int, int>;
 #define w(x) int x; cin>>x; while(x--)
 #define endl '\n'
 #define all(x) begin(x), end(x)
-#define sz(x) (int)(x).size()
 #define f first
 #define s second
 #define MAX_CHAR 256

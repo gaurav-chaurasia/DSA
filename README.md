@@ -44,11 +44,11 @@
 <br>  
 
 > ### ``IMP``
-> problems full of concepts  
-> QUESTIONS | LINK | CODE | TAGS  
->  --- | --- | --- | ---
->  cut | <a href="https://codeforces.com/contest/1516/problem/D">Problem</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/contest/codeforces/R%23720/d.cpp">CODE</a> `NC` | `GCD` `LCM` `Prime Factors` `DP` `Binary Lifting` `Sieve`   
->  count_occurrences_of_anagrams | <a href="https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1">Problem</a> | <a href="#">CODE</a> `C` | `Sliding-Window` `Map`   
+> Problems full of concepts  
+> QUESTIONS | CODE | TAGS  
+>  --- | --- | ---
+>  <a href="https://codeforces.com/contest/1516/problem/D">cut</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/contest/codeforces/R%23720/d.cpp">CODE</a> `NC` | `GCD` `LCM` `Prime Factors` `DP` `Binary Lifting` `Sieve`   
+>  <a href="https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1">count_occurrences_of_anagrams</a> | <a href="#">CODE</a> `C` | `Sliding-Window` `Map`   
 >
 
 <br>  

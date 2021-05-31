@@ -1,9 +1,15 @@
 # `TOPICS` 
 
+- Stack
+    - nearest larget element to left    `NLE_left `
+    - nearest larget element to right   `NLE_right`
+    - nearest smallest element to left  `NSE_left `
+    - nearest smallest element to right `NSE_right`
 - Dynamic Programming
     - Knapsack
     - Unbounded Knapsack
     - Longest Common Subsequence `LCS`
+    - Matrix Chain Multiplication `MCM`
 - Sliding Window
     - fixed size window
     - variable size window

@@ -1,5 +1,7 @@
 # `NOTES` 
 
+- always try to relate the problem to the one you have solved already i.e.
+    - problem could be related to `sliding window``MCM``knapsack``heap``stack[NSL, NSR ...]` ...etc
 - first always think of math approach to a problem 
 - `a * b * c = GCD(a * b * c) * LCM(a * b * c)`
 - if `GCD(a, b) == 1` -> a and b are co-prime

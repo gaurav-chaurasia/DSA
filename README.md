@@ -40,6 +40,11 @@
        `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
        `Euclidean Algorithms` | [README](ALGORITHM/docs/euclidean_algorithms.md) |  [CODE](ALGORITHM/euclidean_algorithms.cpp)
 
+     - `DS`
+       DATA-STRUCTURE | README | CODE
+       --- | --- | ---
+       `Disjoint Set Union` | [README](DS/docs/disjoint_set_union.md) | [CODE](DS/disjoint_set_union.cpp) 
+
 
 <br>  
 

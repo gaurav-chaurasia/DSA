@@ -44,11 +44,14 @@
 <br>  
 
 > ### ``IMP``
-> Problems full of concepts  
+> - Problems full of concepts  
+> - or one of it's kind  
+>  
 > QUESTIONS | CODE | TAGS  
 >  --- | --- | ---
 >  <a href="https://codeforces.com/contest/1516/problem/D">cut</a> | <a href="https://github.com/gaurav-chaurasia/DSA/blob/master/contest/codeforces/R%23720/d.cpp">CODE</a> `NC` | `GCD` `LCM` `Prime Factors` `DP` `Binary Lifting` `Sieve`   
 >  <a href="https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1">count_occurrences_of_anagrams</a> | <a href="#">CODE</a> `C` | `Sliding-Window` `Map`   
+>  <a href="https://www.codechef.com/COOK129B/problems/TLAPM">the_last_problem</a> | <a href="https://github.com/gaurav-chaurasia/DSA/tree/master/contest/codechef/COOK129B/a.cpp">CODE</a> `C` | `Grid` `Series` `Pattern`   
 >
 
 <br>  

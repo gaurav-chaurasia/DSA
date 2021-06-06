@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 using ll = long long;
 using pi = pair<int, int>;
+using ppi = pair<int, pi>;
 
 #define DEB(x) cout << "[ " << #x << " ==> " << x << " ]";
-#define w(x) int x; cin>>x; while(x--)
 #define endl '\n'
 #define all(x) begin(x), end(x)
 #define f first
@@ -15,8 +16,8 @@ using pi = pair<int, int>;
 class Solution {
 
 public:
-    void SOL_01() {
-        // your code goes here!!!
+    void solve() {
+        
     }
 
 };
@@ -25,9 +26,7 @@ public:
 int main() {
     Solution* SOL = new Solution();
     
-    w(t) {
-       SOL->SOL_01();
-    }
+    SOL->solve();
     
     delete SOL;
     return 0;

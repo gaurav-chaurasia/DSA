@@ -1,0 +1,14 @@
+## `Code Snippets`
+>  
+>  [`Max-Sum-Subarray`](#Max-Sum-Subarray)  
+>  
+
+- ##### `Max-Sum-Subarray`
+```cpp
+    // maximum sum subarray
+    int best = 0; sum = 0;
+    for (int i = 0; i < n; i++) {
+        sum = max(arr[i], sum + arr[i]);
+        best = max(best, sum);
+    }
+```

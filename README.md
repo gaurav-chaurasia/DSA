@@ -4,6 +4,7 @@
 > Windows Subsystem for Linux 2 (Ubuntu 20.04 LTS)
 
 - All the imp concept and notes can be found in the [`NOTES`](NOTES/.NOTES.markdown) folder
+    - [SNIPPET](NOTES/.SNIPPET.markdown)
     - [TOPICS](NOTES/.TOPICS.markdown)
     - [NOTES](NOTES/.NOTES.markdown)
     - [headers](NOTES/headers.md)

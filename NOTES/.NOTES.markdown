@@ -7,3 +7,5 @@
 - if `GCD(a, b) == 1` -> a and b are co-prime
 - for any general series write it in terms of prev element `An = An-1 + (somthign)` 
 - two or more sets with nothing in common are called disjoint sets
+- Longest Increasing Subsequence 
+    - > ending at i'th index `Imp Approach`

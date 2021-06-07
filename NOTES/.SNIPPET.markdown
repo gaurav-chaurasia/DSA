@@ -1,6 +1,7 @@
 ## `Code Snippets`
 >  
 >  [`Max-Sum-Subarray`](#Max-Sum-Subarray)  
+>  [`Binary-Exponentiation`](#Binary-Exponentiation)
 >  
 
 - ##### `Max-Sum-Subarray`
@@ -10,5 +11,20 @@
     for (int i = 0; i < n; i++) {
         sum = max(arr[i], sum + arr[i]);
         best = max(best, sum);
+    }
+```
+- ###### `Binary-Exponentiation`
+```cpp
+    // find a ^ b or a**b in just O( log(b) ) time 
+    ll power(ll a, ll b) {
+        ll result = 1;
+        while (b > 0) {
+            if (b % 2 == 1)
+                result = (result * a) % MOD;
+
+            a = (a * a) % MOD;
+            b /= 2;
+        }
+        return result;
     }
 ```

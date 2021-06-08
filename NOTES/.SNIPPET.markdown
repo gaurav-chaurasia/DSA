@@ -13,7 +13,7 @@
         best = max(best, sum);
     }
 ```
-- ###### `Binary-Exponentiation`
+- ##### `Binary-Exponentiation`
 ```cpp
     // find a ^ b or a**b in just O( log(b) ) time 
     ll power(ll a, ll b) {

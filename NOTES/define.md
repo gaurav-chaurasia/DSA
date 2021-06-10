@@ -42,9 +42,17 @@
 	typedef long long int          int64;
 	typedef unsigned long long int uint64;
 	
+
+	template<typename... T>
+	void in(T&... args) { ((cin >> args), ...);}
+	template<typename... T>
+	void print(T&&... args) { ((cout << args << " "), ...);}
+	template<typename... T>
+	void printl(T&&... args) { ((cout << args << " "), ...); cout<<'\n';}
+
 	template <typename T>
 	void display(const vector<T> &l) {
-		cout << "\n" << "[ ";
+		cout << "[ ";
 		for (const auto &element: l) { cout << element << " "; }
 		cout << "]";
 	}

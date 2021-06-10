@@ -10,8 +10,9 @@ using ppi = pair<int, pi>;
 #define all(x) begin(x), end(x)
 #define f first
 #define s second
-#define MAX_CHAR 256
-#define MOD (int)1e9+7
+
+const int MAX_CHAR = 256;
+const int MOD = 1000000007;
 
 class Solution {
 

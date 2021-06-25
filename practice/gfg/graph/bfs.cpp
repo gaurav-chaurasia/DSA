@@ -1,10 +1,8 @@
-void bfs(int V, vector<int> adj[]) {
-    vector<int> ans;
-    vector<bool> vis(V, false);
+void bfs(int curr, vector<int> adj[], vector<bool> &vis, vector<int> &ans) {
     queue<int> q;
 
-    q.push(0);
-    vis[0] = true;
+    vis[curr] = true;
+    q.push(curr);
     while(!q.empty()) {
         int item = q.front(); q.pop();
         
@@ -18,4 +16,17 @@ void bfs(int V, vector<int> adj[]) {
             }
         }
     }
+}
+
+vector<int> bfs_of_graph(int V, vector<int> adj[]) {
+    vector<int> ans;
+    vector<bool> vis(V, false);
+
+    for (int i = 0; i < V; ++i) {
+        if (vis[i] == false) {
+            bfs(i, adj, vis, ans);
+        }
+    }
+
+    return ans;
 }

@@ -13,7 +13,11 @@ void dfs(int s, vector<int> adj[], vector<bool> &vis, vector<int> &ans) {
 vector<int> dfs_of_graph(int V, vector<int> adj[]) {
     vector<bool> vis(V, false); 
     vector<int> ans;
-    dfs(0, adj, vis, ans);
+    for (int i = 0; i < V; i++) {
+        if (vis[i] == false) {
+            dfs(i, adj, vis, ans);
+        }
+    }
     return ans;
 }
 

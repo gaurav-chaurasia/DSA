@@ -20,32 +20,24 @@
 ### `LCM_and_GCD`
 - LCM (Least Common Multiple) of two numbers is the smallest number which can be divided by both numbers
 - A simple solution is to find all prime factors of both numbers, then find union of all factors present in both numbers. Finally, return the product of elements in union
+- below is the implimentation for finding all the prime factors of number  
 ```cpp
-	void prime_factors(int n) {
-		// step 1
-		// Print the number of 2s that divide n
-		while (n % 2 == 0) {
-			cout << 2 << " ";
-			n = n/2;
-		}
-	
-		// step 2
-		// n must be odd at this point. So we can skip
-		// one element (Note i = i +2)
-		for (int i = 3; i <= sqrt(n); i = i + 2) {
-			// While i divides n, print i and divide n
-			while (n % i == 0) {
-				cout << i << " ";
-				n = n/i;
-			}
-		}
+    // 24 = (2^3)*(3) ==> [2, 2, 2, 3]
+    vector<int> prime_factors(int n) {
+        vector<int> f;
 
-		// step 3
-		// This condition is to handle the case when n
-		// is a prime number greater than 2
-		if (n > 2)
-			cout << n << " ";
-	}
+        for (int x = 2; x*x <= n; x++) {
+            while (n%x == 0) {
+                f.push_back(x);
+                n /= x;
+            }
+        }
+
+        if (n > 1) 
+            f.push_back(n);
+
+        return f;
+    }
 ```
 - An efficient solution is based on the below formula for LCM of two numbers ‘a’ and ‘b’
 ```cpp

@@ -2,6 +2,8 @@
 >  
 >  [`Max-Sum-Subarray`](#Max-Sum-Subarray)  
 >  [`Binary-Exponentiation`](#Binary-Exponentiation)
+>  [`Prime-Factors`](#Prime-Factors)
+>  [`Prime-Number-Seive`](#Prime-Number-Seive) 
 >  
 
 - ##### `Max-Sum-Subarray`
@@ -26,5 +28,38 @@
             b /= 2;
         }
         return result;
+    }
+```
+- ##### `Prime-Factors`
+```cpp
+    // 24 = (2^3)*(3) ==> [2, 2, 2, 3]
+    vector<int> prime_factors(int n) {
+        vector<int> f;
+
+        for (int x = 2; x*x <= n; x++) {
+            while (n%x == 0) {
+                f.push_back(x);
+                n /= x;
+            }
+        }
+
+        if (n > 1) 
+            f.push_back(n);
+
+        return f;
+    }
+```
+- ##### `Prime-Number-Seive`
+```cpp
+    vector<int> seive(int n) {
+        vector<int> seive(n + 1, true);
+
+        for (int i = 2; i * i <= n; i++) {
+            for (int j = 2; j * i <= n; j++) {
+                seive[j*i] = false;
+            }
+        }
+
+        return seive;
     }
 ```

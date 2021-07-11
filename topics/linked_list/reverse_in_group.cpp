@@ -10,23 +10,21 @@ struct node {
 
 
 node* reverse_in_group(node* head, int k) {
-    node* curr = head;
-    node* next = NULL;
-    node* prev = NULL;
-    int count = 0;
+    if (head == nullptr) return head;
 
-    while (curr != NULL and count < k) {
+    node *prev = nullptr;
+    node *curr = head;
+    node *next = head;
+    int count = k;
+
+    while (count-- and curr) {
         next = curr->next;
         curr->next = prev;
-
         prev = curr;
         curr = next;
-        count++;
     }
 
-    if (next != NULL) {
-        head->next = reverse_in_group(next, k);
-    }
+    head->next = reverse(curr, k);
 
     return prev;
 }

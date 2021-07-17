@@ -41,6 +41,7 @@
        `Quick Sort` | [README](ALGORITHM/docs/quick_sort.md) | [CODE](ALGORITHM/quick_sort.cpp)
        `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
        `Euclidean Algorithms` | [README](ALGORITHM/docs/euclidean_algorithms.md) |  [CODE](ALGORITHM/euclidean_algorithms.cpp)
+       `Kahn's Algorithms` | [README](ALGORITHM/docs/kahn_algorithm.md) |  [CODE](ALGORITHM/kahn_algorithm.cpp)
 
      - `DS`
        DATA-STRUCTURE | README | CODE

@@ -13,3 +13,13 @@
 - Sliding Window
     - fixed size window
     - variable size window
+- Recursion
+    - Input-Output Method
+    - Base + Hypothesis + Induction
+- Graph
+    - BFS
+    - DFS
+    - Multi Sourse BFS
+- Tree
+    - Traversal (Pre-Order, In-Order, Post-Order)
+    - Level-Order(BFS)

@@ -42,6 +42,7 @@
        `Moore's Voting` | [README](ALGORITHM/docs/Moore's_Voting.md) |  [CODE](ALGORITHM/Moore's_Voting.cpp)
        `Euclidean Algorithms` | [README](ALGORITHM/docs/euclidean_algorithms.md) |  [CODE](ALGORITHM/euclidean_algorithms.cpp)
        `Kahn's Algorithms` | [README](ALGORITHM/docs/kahn_algorithm.md) |  [CODE](ALGORITHM/kahn_algorithm.cpp)
+       `Dijkstra's Algorithms` |  |  [CODE](ALGORITHM/dijkstras_algorithm.cpp)
 
      - `DS`
        DATA-STRUCTURE | README | CODE

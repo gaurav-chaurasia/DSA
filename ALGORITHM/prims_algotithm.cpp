@@ -1,7 +1,7 @@
 // implimentation of prims algorithm
 // which basically counts minimum spanning tree
 // brout force approach
-void prims_algo(vector<pair<int, int> adj[]) {
+void prims_algo(vector<pair<int, int>> adj[]) {
     int n = adj.size();
     
     vector<int> parent(n, -1);
@@ -40,14 +40,14 @@ void prims_algo(vector<pair<int, int> adj[]) {
 
 
 // optimised with pq
-void prims_algo(vector<pair<int, int> adj[]) {
+void prims_algo(vector<pair<int, int>> adj[]) {
     int n = adj.size();
     
     vector<int> parent(n, -1);
     vector<int> key(n, INT_MAX);
     vector<bool> mst(n, false);
 
-    priority_queue<pair<int, int>, vector<pair<int, int>, greater<pair<int, int>> pq;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
     // starting from 0'th node
     key[0] = 0;

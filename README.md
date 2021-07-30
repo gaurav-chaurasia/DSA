@@ -43,6 +43,7 @@
        `Euclidean Algorithms` | [README](ALGORITHM/docs/euclidean_algorithms.md) |  [CODE](ALGORITHM/euclidean_algorithms.cpp)
        `Kahn's Algorithms` | [README](ALGORITHM/docs/kahn_algorithm.md) |  [CODE](ALGORITHM/kahn_algorithm.cpp)
        `Dijkstra's Algorithms` |  |  [CODE](ALGORITHM/dijkstras_algorithm.cpp)
+       `Prim's Algorithms` |  |  [CODE](ALGORITHM/prims_algorithm.cpp)
 
      - `DS`
        DATA-STRUCTURE | README | CODE

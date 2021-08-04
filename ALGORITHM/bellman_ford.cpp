@@ -4,7 +4,7 @@
 
 // it also detects if negative weights cycle present in graph
 
-vector<int> bellman_ford(int nodes, vector<int> adj[]) {
+vector<int> bellman_ford(int nodes, vector<pair<int, int>> adj[]) {
     // this will be the sourse node from which all the dist will be calculated
     int source = 0;
 
@@ -15,8 +15,16 @@ vector<int> bellman_ford(int nodes, vector<int> adj[]) {
     for (int count = 1; count <= nodes - 1; ++count) { 
         // performing relaxation for all the edges 
         for (int i = 0; i < nodes; i++) {
-            for (auto u: adj[i]) {
-                dist[u] = min(dist[u], dist[i] + w);
+            for (pair<int, int> u: adj[i]) {
+                int v = u.first;
+                int w = u.second;
+                // i -> [{v1, w1}, {v2, w2}, {v3, w3}];
+                // dist[i] + w1 < v1 ==> v1 = dist[i] + w1;
+                // dist[i] + w2 < v2 ==> v2 = dist[i] + w2;
+                // dist[i] + w3 < v3 ==> v3 = dist[i] + w3;
+                if (dist[i] + w < dist[v]) {
+                    dist[v] = dist[i] + w;
+                }
             }
         }
     }
@@ -24,6 +32,25 @@ vector<int> bellman_ford(int nodes, vector<int> adj[]) {
     // to detect if negative weights cycle present or not 
     // we have to do relaxation one more time and if any of dist gets updated
     // means it has negative weights cycle
+    bool flag = true;    
+    // performing relaxation for all the edges 
+    for (int i = 0; i < nodes; i++) {
+        for (pair<int, int> u: adj[i]) {
+            int v = u.first;
+            int w = u.second;
+            // i -> [{v1, w1}, {v2, w2}, {v3, w3}];
+            // dist[i] + w1 < v1 ==> v1 = dist[i] + w1;
+            // dist[i] + w2 < v2 ==> v2 = dist[i] + w2;
+            // dist[i] + w3 < v3 ==> v3 = dist[i] + w3;
+            if (dist[i] + w < dist[v]) {
+                flag = false;
+                break;
+                dist[v] = dist[i] + w;
+            }
+        }
+        if (!flag) break;
+    }
 
-    return dist;
+
+    return flag ? dist : {-1};
 }

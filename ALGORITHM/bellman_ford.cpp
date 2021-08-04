@@ -54,3 +54,47 @@ vector<int> bellman_ford(int nodes, vector<pair<int, int>> adj[]) {
 
     return flag ? dist : {-1};
 }
+
+
+// simpler implimentation of bellman ford algo
+// here edges will store all the edges in {u, v, w} maner
+// {
+//     {u, v, w},
+//     {u, v, w},
+//     {u, v, w},
+//     {u, v, w}
+// }
+// n -> number of nodes 
+// src -> src node from which shortest distance need to be calculated
+vector<int> bellman_ford(int src, int n, vector<vector<int>> &edges) {
+    vector<int> dist(n, INT_MAX);
+    dist[src] = 0;
+
+    for (int count = 0; count <= n - 1; count++) {
+        for (vector<int> edge: edges) {
+            int u = edge[0], v = edge[1], w = edge[2];
+
+            if (dist[u] + w < dist[v]) {
+                dist[v] = dist[u] + w;
+            }
+        }
+    }
+
+
+    bool flag = true;
+    for (vector<int> edge: edges) {
+        int u = edge[0], v = edge[1], w = edge[2];
+
+        if (dist[u] + w < dist[v]) {
+            dist[v] = dist[u] + w;
+            flag = false;
+            break;
+        }
+    }
+    if (flag == false) {
+        cout << "shortest distance can't be calculated negative cycle found!!!" endl;
+        return {-1};
+    }
+
+    return dist;
+}

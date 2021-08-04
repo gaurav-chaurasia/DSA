@@ -1,3 +1,9 @@
+// dijkstras_algorithm algo is used to find the shorted path of all the nodes
+// from a given sourse node with positive weights
+
+// but it do not detect negative weight cycle 
+// and can give wrong answer in case of negative edge 
+
 // Dijkstra's Algorithm
 // since we use priority_queue it takes log(n) time for every push and pop operation
 // the total time complexity would be O(E + VLogV)

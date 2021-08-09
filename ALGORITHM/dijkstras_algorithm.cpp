@@ -35,3 +35,54 @@ void shortest_path_undirected_weighted_graph(int V, vector<vector<int>> adj[], i
 
     return dist;
 }
+
+
+
+// dijkstra on grid
+typedef pair<int, int> pi;
+typedef pair<int, pi> ppi;
+class Solution
+{
+public:
+    //Function to return the minimum cost to react at bottom
+    //right cell from top left cell.
+    // dijkstra's algorithm can be used to determine the answer
+    // dijkstra's algo on grid
+    int minimumCostPath(vector<vector<int>> &grid)
+    {
+        int n = grid.size();
+        vector<vector<bool>> vis(n, vector<bool>(n, false));
+        priority_queue<ppi, vector<ppi>, greater<ppi>> pq;
+
+        vis[0][0] = true;
+        pq.push({grid[0][0], {0, 0}});
+        while (!pq.empty())
+        {
+            auto node = pq.top();
+            int dist = node.first;
+            int i = node.second.first;
+            int j = node.second.second;
+            pq.pop();
+
+            if (i == n - 1 and j == n - 1)
+            {
+                return dist;
+            }
+
+            vector<pi> cords = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+            for (pi cord : cords)
+            {
+                if (
+                    (i + cord.first < n and i + cord.first >= 0) and
+                    (j + cord.second < n and j + cord.second >= 0) and
+                    (vis[i + cord.first][j + cord.second] == false))
+                {
+                    vis[i + cord.first][j + cord.second] = true;
+                    pq.push({dist + grid[i + cord.first][j + cord.second], {i + cord.first, j + cord.second}});
+                }
+            }
+        }
+
+        return 0;
+    }
+};

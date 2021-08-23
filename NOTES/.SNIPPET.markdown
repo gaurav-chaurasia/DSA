@@ -1,10 +1,11 @@
 ## `Code Snippets`
 >  
 >  [`Max-Sum-Subarray`](#Max-Sum-Subarray)  
->  [`Binary-Exponentiation`](#Binary-Exponentiation)
->  [`Prime-Factors`](#Prime-Factors)
->  [`Prime-Number-Seive`](#Prime-Number-Seive) 
->  [`binomial coefficient nCr`](#Binomial-Coefficient) 
+>  [`Binary-Exponentiation`](#Binary-Exponentiation)  
+>  [`Prime-Factors`](#Prime-Factors)  
+>  [`Prime-Number-Seive`](#Prime-Number-Seive)  
+>  [`binomial coefficient nCr`](#Binomial-Coefficient)  
+>  [`Permutation Coefficient nPr`](#Permutation-Coefficient)
 >  
 
 - ##### `Max-Sum-Subarray`
@@ -82,4 +83,24 @@
         }
     }
     // dp[n][r] => represent the answer
+```
+- ##### `Permutation-Coefficient`
+```cpp
+    // P(n, r) => nPr
+    // P(n, r) = r * P(n - 1, r - 1) + P(n - 1, r)
+    int dp[n + 1][r + 1];
+    memset(dp, 0, sizeof(dp));
+
+    for (int i = 0; i <= n; i++) {
+        for (int j = 0; j <= min(i, r); j++) {
+            if (j == 0) {
+                dp[i][j] = 1;
+            }
+            else {
+                dp[i][j] = dp[i - 1][j] + (j * dp[i - 1][j - 1]);
+            }
+        }
+    }
+
+    return dp[n][r];
 ```

@@ -9,3 +9,5 @@
 - two or more sets with nothing in common are called disjoint sets
 - Longest Increasing Subsequence 
     - > ending at i'th index `Imp Approach`
+- Applications of Catalan Numbers Cn = `(2*n)! / (n + 1)!*(n)!`
+    - > [Catalan Numbers](https://www.geeksforgeeks.org/applications-of-catalan-numbers/)

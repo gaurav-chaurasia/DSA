@@ -93,7 +93,7 @@
 > #### ``DP`` 
 > QUESTIONS | README | CODE
 >  --- | --- | ---
->  *knapsack* |  |   
+>  **knapsack** |  |   
 >  knapsack | <a href="#"></a> | <a href="topics/dp/knapsack/knapsack.cpp">CODE</a>  
 >  count_number_of_subset_with_given_difference | <a href="#"></a> | <a href="topics/dp/count_number_of_subset_with_given_difference.cpp">CODE</a>  
 >  equal_sum_partition | <a href="#"></a> | <a href="topics/dp/knapsack/equal_sum_partition.cpp">CODE</a>  
@@ -101,11 +101,11 @@
 >  minimum_subset_sum_diffrence | <a href="#"></a> | <a href="topics/dp/knapsack/minimum_subset_sum_diffrence.cpp">CODE</a>  
 >  subset_sum | <a href="#"></a> | <a href="topics/dp/knapsack/subset_sum.cpp">CODE</a>  
 >  target_sum | <a href="#"></a> | <a href="topics/dp/knapsack/target_sum.cpp">CODE</a>  
->  *unbounded_knapsack* |  |   
+>  **unbounded_knapsack** |  |   
 >  coin_change_1 | <a href="#"></a> | <a href="topics/dp/unbounded_knapsack/coin_change_1.cpp">CODE</a>  
 >  coin_change_2 | <a href="#"></a> | <a href="topics/dp/unbounded_knapsack/coin_change_2.cpp">CODE</a>  
 >  rod_cutting_problem | <a href="#"></a> | <a href="topics/dp/unbounded_knapsack/rod_cutting_problem.cpp">CODE</a>  
->  *Longest Common Subsequence* | *LIS* |   
+>  **Longest Common Subsequence** | **LIS** |   
 >  longest_common_subsequence | <a href="#"></a> | <a href="topics/dp/LCS/longest_common_subsequence.cpp">CODE</a>  
 >  longest_common_subtring | <a href="#"></a> | <a href="topics/dp/LCS/longest_common_subtring.cpp">CODE</a>  
 >  longest_palindromic_subsequence | <a href="#"></a> | <a href="topics/dp/LCS/longest_palindromic_subsequence.cpp">CODE</a>  
@@ -116,15 +116,15 @@
 >  subsequence_pattern_matching | <a href="#"></a> | <a href="topics/dp/LCS/subsequence_pattern_matching.cpp">CODE</a>  
 >  shortest_common_super_sequence | <a href="#"></a> | <a href="topics/dp/LCS/shortest_common_super_sequence.cpp">CODE</a>  
 >  edit_distance | <a href="#"></a> | <a href="topics/dp/LCS/edit_distance.cpp">CODE</a>  
->  *Matrix Chain Multiplication* | *MCM* |   
+>  **Matrix Chain Multiplication** | **MCM** |   
 >  egg_dropping | <a href="#"></a> | <a href="topics/dp/LCS/egg_dropping.cpp">CODE</a>  
 >  evaluate_expression | <a href="#"></a> | <a href="topics/dp/LCS/evaluate_expression.cpp">CODE</a>  
 >  matrix_chain_multiplication | <a href="#"></a> | <a href="topics/dp/LCS/matrix_chain_multiplication.cpp">CODE</a>  
 >  palindrom_partitioning | <a href="#"></a> | <a href="topics/dp/LCS/palindrom_partitioning.cpp">CODE</a>  
 >  scrambeld_string | <a href="#"></a> | <a href="topics/dp/LCS/scrambeld_string.cpp">CODE</a>  
->  *DP on Tree* |  |
+>  **DP on Tree** |  |
 >  diameter_binary_tree | <a href="#"></a> | <a href="topics/dp/trees/diameter_binary_tree.cpp">CODE</a>  
->  *Others* | *Mixed* |   
+>  **Others** | **Mixed** |   
 >  fib | <a href="#"></a> | <a href="topics/dp/others/fib.cpp">CODE</a>  
 >  LIS | <a href="#"></a> | <a href="topics/dp/others/LIS.cpp">CODE</a>  
 
@@ -133,12 +133,12 @@
 > #### ``SLIDING_WINDOW`` 
 > QUESTIONS | README | CODE
 >  --- | --- | ---
->  *Fixed Size* |  |   
+>  **Fixed Size** |  |   
 >  count_occurrences_of_anagrams | <a href=""></a> | <a href="topics/dp/sliding_window/fixed/count_occurrences_of_anagrams.cpp">CODE</a>  
 >  first_negative_in_window_of_size_k | <a href=""></a> | <a href="topics/dp/sliding_window/fixed/first_negative_in_window_of_size_k.cpp">CODE</a>  
 >  maximum_sum_subarray_of_size_k | <a href=""></a> | <a href="topics/dp/sliding_window/fixed/maximum_sum_subarray_of_size_k.cpp">CODE</a>  
 >  maximum_of_all_subarray_of_size_k | <a href=""></a> | <a href="topics/dp/sliding_window/fixed/maximum_of_all_subarray_of_size_k.cpp">CODE</a>  
->  *Variable Size* |  |   
+>  **Variable Size** |  |   
 >  count_of_anagram_string | <a href=""></a> | <a href="topics/dp/sliding_window/variable/count_of_anagram_string.cpp">CODE</a>  
 >  largest_subarray_of_sum_k | <a href=""></a> | <a href="topics/dp/sliding_window/variable/largest_subarray_of_sum_k.cpp">CODE</a>  
 >  largest_subarray_with_k_unique_char | <a href=""></a> | <a href="topics/dp/sliding_window/variable/largest_subarray_with_k_unique_char.cpp">CODE</a>  

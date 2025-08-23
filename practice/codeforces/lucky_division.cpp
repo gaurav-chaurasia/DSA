@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solve() {
+void solve() {
     int arr[] = {4, 7, 47, 74, 444, 447, 474, 744, 774, 747, 477, 777},
         count = 0,
         n;
